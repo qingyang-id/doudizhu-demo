@@ -82,7 +82,7 @@ class ClientPeer {
             this.socket.writeBytes(packet, 0, packet.bytesAvailable);
             this.socket.flush();
         } catch (e) {
-            console.error(e);
+            console.error('发送消息失败: ', e);
         }
     }
 

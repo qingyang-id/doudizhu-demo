@@ -1,14 +1,10 @@
 {
-  "native": {
-    "path_ignore": []
-  },
-  "publish": {
-    "web": 0,
-    "native": 1,
-    "path": "bin-release"
-  },
-  "egret_version": "5.0.13",
+  "engineVersion": "5.2.13",
+  "compilerVersion": "5.2.13",
   "template": {},
+  "target": {
+    "current": "web"
+  },
   "eui": {
     "exmlRoot": [
       "resource/eui_skins",
@@ -17,7 +13,7 @@
     "themes": [
       "resource/default.thm.json"
     ],
-    "exmlPublishPolicy": "content"
+    "exmlPublishPolicy": "commonjs"
   },
   "modules": [
     {
@@ -27,10 +23,7 @@
       "name": "eui"
     },
     {
-      "name": "res"
-    },
-    {
-        "name": "socket"
+      "name": "assetsmanager"
     },
     {
       "name": "tween"
@@ -39,8 +32,23 @@
       "name": "game"
     },
     {
-      "name": "promise",
-      "path": "./promise"
+      "name": "dragonBones"
+    },
+    {
+      "name": "socket"
+    },
+    {
+      "name": "egret-facebook"
+    },
+    {
+      "name": "experimental"
+    },
+    {
+      "name": "promise"
+    },
+    {
+      "name": "wxshare",
+      "path": "./libs/wxshare"
     }
   ]
 }

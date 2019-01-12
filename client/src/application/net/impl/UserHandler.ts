@@ -15,7 +15,7 @@ class UserHandler extends HandlerBase{
 	}
 	private getInfoResponse(user: UserDto) {
 		if (user == null) {
-			console.log('没有角色 创建');
+			console.log('没有角色 创建2');
 			Game.getInstance().loadScene(CreateScene);
 		} else {
 			// 保存服务器发来的角色数据

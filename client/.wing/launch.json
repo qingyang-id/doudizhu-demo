@@ -1,6 +1,7 @@
 {
 	"version": "0.2.0",
 	"configurations": [
+		
 		{
 			"name": "Launch Wing Player",
 			"type": "chrome",
@@ -11,7 +12,7 @@
 			"sourceMaps": true,
 			"webRoot": "${workspaceRoot}",
 			"preLaunchTask":"build",
-			"port":5579
+			"port":5713
 		},
 		{
 			"name": "Launch Chrome",
@@ -23,7 +24,7 @@
 			"webRoot": "${workspaceRoot}",
 			"preLaunchTask":"build",
 			"userDataDir":"${tmpdir}",
-			"port":5579
+			"port":5713
 		}
 	]
 }

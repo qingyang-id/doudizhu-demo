@@ -43,8 +43,9 @@ module Utils {
         }
         /**等待多少毫秒执行后续 */
         public static wait(timeout:number):Promise<void>{
-            return new Promise<void>(function(resolve,reject){
-                setTimeout(resolve,timeout);
+            return new Promise((resolve, reject) => {
+                console.log(timeout, 'timeout')
+                setTimeout(resolve, timeout);
             });
         }
     }
