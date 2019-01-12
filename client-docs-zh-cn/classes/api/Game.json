@@ -1,0 +1,62 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "NoticeManager",
+			"name": "noticeManager",
+			"memberof": "Game",
+			"scope": "instance",
+			"default": "null"
+		},
+		{
+			"kind": "member",
+			"type": "PopUpManager",
+			"name": "popUpManager",
+			"memberof": "Game",
+			"scope": "instance",
+			"default": "null"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "getInstance",
+			"memberof": "Game",
+			"scope": "static"
+		},
+		{
+			"kind": "function",
+			"name": "loadScene",
+			"memberof": "Game",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "t",
+					"type": "{new(a):T}",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "start",
+			"memberof": "Game",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "stage",
+					"type": "egret.Stage",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "Game",
+		"memberof": "",
+		"filename": "application\\Game.ts"
+	}
+}

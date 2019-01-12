@@ -1,0 +1,43 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "FARMER",
+			"memberof": "Identity",
+			"scope": "static",
+			"default": "0"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "LANDLORD",
+			"memberof": "Identity",
+			"scope": "static",
+			"default": "1"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "getString",
+			"memberof": "Identity",
+			"scope": "static",
+			"params": [
+				{
+					"name": "identity",
+					"type": "number",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "Identity",
+		"memberof": "",
+		"filename": "application\\protocol\\constant\\Identity.ts"
+	}
+}

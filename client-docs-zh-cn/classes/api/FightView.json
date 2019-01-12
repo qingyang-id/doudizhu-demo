@@ -1,0 +1,52 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "FightView",
+			"memberof": "FightView",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "childrenCreated",
+			"memberof": "FightView",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "createChildren",
+			"memberof": "FightView",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "execute",
+			"memberof": "FightView",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "eventCode",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "msg",
+					"type": "any",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "FightView",
+		"memberof": "",
+		"filename": "application\\view\\FightView.ts",
+		"augments": [
+			"UIBase"
+		]
+	}
+}

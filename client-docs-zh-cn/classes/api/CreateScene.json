@@ -1,0 +1,34 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "CreateScene",
+			"memberof": "CreateScene",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "sceneManager",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "stateBegin",
+			"memberof": "CreateScene",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "CreateScene",
+		"memberof": "",
+		"filename": "application\\scenes\\concreteScene\\CreateScene.ts",
+		"augments": [
+			"SceneBase"
+		]
+	}
+}

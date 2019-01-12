@@ -1,0 +1,58 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"type": "any",
+			"name": "clone",
+			"memberof": "Utils.CommonUtil",
+			"scope": "static",
+			"description": "克隆对象",
+			"params": [
+				{
+					"name": "obj",
+					"type": "any",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "getClassName",
+			"memberof": "Utils.CommonUtil",
+			"scope": "static",
+			"description": "根据 类 获取类名",
+			"params": [
+				{
+					"name": "t",
+					"type": "{new():T}",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "getClassNameByObj",
+			"memberof": "Utils.CommonUtil",
+			"scope": "static",
+			"description": "根据类对象获取类名",
+			"params": [
+				{
+					"name": "obj",
+					"type": "Object",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "CommonUtil",
+		"memberof": "Utils",
+		"filename": "framework\\utils\\CommonUtil.ts"
+	}
+}

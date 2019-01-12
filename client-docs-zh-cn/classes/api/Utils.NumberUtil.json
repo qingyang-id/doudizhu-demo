@@ -1,0 +1,150 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "clamp",
+			"memberof": "Utils.NumberUtil",
+			"scope": "static",
+			"description": "限定数字的范围",
+			"returns": "",
+			"params": [
+				{
+					"name": "value",
+					"type": "number",
+					"description": "value"
+				},
+				{
+					"name": "min",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "max",
+					"question": true,
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "fixNumberByAddZeroAtPrefix",
+			"memberof": "Utils.NumberUtil",
+			"scope": "static",
+			"description": "将0,1...10 => '01','02'....'10'",
+			"params": [
+				{
+					"name": "num",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "strLen",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "getUint16High8",
+			"memberof": "Utils.NumberUtil",
+			"scope": "static",
+			"description": "获得16位的高8位",
+			"returns": "",
+			"params": [
+				{
+					"name": "value",
+					"type": "number",
+					"description": "value"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "getUint16Low8",
+			"memberof": "Utils.NumberUtil",
+			"scope": "static",
+			"description": "获得16位的低8位",
+			"returns": "",
+			"params": [
+				{
+					"name": "value",
+					"type": "number",
+					"description": "value"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "getUint32High16",
+			"memberof": "Utils.NumberUtil",
+			"scope": "static",
+			"description": "获得32位的高16位",
+			"returns": "",
+			"params": [
+				{
+					"name": "value",
+					"type": "number",
+					"description": "value"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "getUint32Low16",
+			"memberof": "Utils.NumberUtil",
+			"scope": "static",
+			"description": "获得32位的低16位",
+			"returns": "",
+			"params": [
+				{
+					"name": "value",
+					"type": "number",
+					"description": "value"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "to16",
+			"memberof": "Utils.NumberUtil",
+			"scope": "static",
+			"description": "将数字转成16进制输出，格式：0x0000",
+			"params": [
+				{
+					"name": "num",
+					"type": "number",
+					"description": "num"
+				},
+				{
+					"name": "charLength",
+					"type": "number",
+					"default": "4",
+					"description": "0x后面的字符长度，默认为4"
+				},
+				{
+					"name": "prefix",
+					"type": "string",
+					"default": "'0x'",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "NumberUtil",
+		"memberof": "Utils",
+		"filename": "framework\\utils\\NumberUtil.ts"
+	}
+}

@@ -1,0 +1,34 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "StartView",
+			"memberof": "StartView",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "childrenCreated",
+			"memberof": "StartView",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "createChildren",
+			"memberof": "StartView",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "StartView",
+		"memberof": "",
+		"filename": "application\\view\\StartView.ts",
+		"augments": [
+			"UIBase"
+		]
+	}
+}

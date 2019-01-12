@@ -1,0 +1,34 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "NoticeSprite",
+			"memberof": "NoticeSprite",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "text",
+					"type": "string",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "removeTween",
+			"memberof": "NoticeSprite",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "NoticeSprite",
+		"memberof": "",
+		"filename": "application\\manager\\NoticeManager.ts",
+		"augments": []
+	}
+}

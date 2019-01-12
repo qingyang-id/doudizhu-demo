@@ -1,0 +1,29 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "NET",
+			"memberof": "AreaCode",
+			"scope": "static",
+			"default": "1"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "UI",
+			"memberof": "AreaCode",
+			"scope": "static",
+			"default": "0"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "enum",
+		"name": "AreaCode",
+		"memberof": "",
+		"filename": "framework\\AreaCode.ts"
+	}
+}

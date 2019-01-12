@@ -1,0 +1,40 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "PopUpBase",
+			"memberof": "PopUpBase",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "close",
+			"memberof": "PopUpBase",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "onDispose",
+			"memberof": "PopUpBase",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "PopUpBase",
+		"memberof": "",
+		"filename": "application\\base\\PopUpBase.ts",
+		"augments": [
+			"UIBase"
+		],
+		"children": [
+			"LoginPanel",
+			"OverPanel",
+			"RegistPanel",
+			"SettingPanel"
+		]
+	}
+}

@@ -1,0 +1,66 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "NoticeManager",
+			"memberof": "NoticeManager",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "addError",
+			"memberof": "NoticeManager",
+			"scope": "instance",
+			"description": "显示错误信息",
+			"params": [
+				{
+					"name": "text",
+					"type": "string",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "addNotice",
+			"memberof": "NoticeManager",
+			"scope": "instance",
+			"description": "添加提示信息",
+			"params": [
+				{
+					"name": "htmlText",
+					"type": "string",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "addRoll",
+			"memberof": "NoticeManager",
+			"scope": "instance",
+			"description": "添加滚动信息",
+			"params": [
+				{
+					"name": "text",
+					"type": "string",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "NoticeManager",
+		"memberof": "",
+		"filename": "application\\manager\\NoticeManager.ts",
+		"description": "提示信息管理类",
+		"augments": []
+	}
+}

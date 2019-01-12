@@ -1,0 +1,58 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "color",
+			"memberof": "CardDto",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "name",
+			"memberof": "CardDto",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "weight",
+			"memberof": "CardDto",
+			"scope": "instance"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "CardDto",
+			"memberof": "CardDto",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "name",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "color",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "weight",
+					"type": "number",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "CardDto",
+		"memberof": "",
+		"filename": "application\\protocol\\dto\\fight\\CardDto.ts"
+	}
+}

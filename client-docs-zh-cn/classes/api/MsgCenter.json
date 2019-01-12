@@ -1,0 +1,53 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "dispatch",
+			"memberof": "MsgCenter",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "areaCode",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "eventCode",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "msg",
+					"type": "any",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "execute",
+			"memberof": "MsgCenter",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "getInstance",
+			"memberof": "MsgCenter",
+			"scope": "static"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "MsgCenter",
+		"memberof": "",
+		"filename": "framework\\MsgCenter.ts",
+		"implements": [
+			{
+				"name": "IBase"
+			}
+		]
+	}
+}

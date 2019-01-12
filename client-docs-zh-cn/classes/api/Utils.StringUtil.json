@@ -1,0 +1,444 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "containsEmoji",
+			"memberof": "Utils.StringUtil",
+			"scope": "static",
+			"description": "检测是否有emoji表情",
+			"returns": "",
+			"params": [
+				{
+					"name": "source",
+					"type": "string",
+					"description": "source"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "format",
+			"memberof": "Utils.StringUtil",
+			"scope": "static",
+			"description": "格式化替换字符串里面的$符号",
+			"returns": "",
+			"params": [
+				{
+					"name": "str",
+					"type": "string",
+					"description": "str"
+				},
+				{
+					"name": "...params",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "format2",
+			"memberof": "Utils.StringUtil",
+			"scope": "static",
+			"description": "格式化替换字符串里的{n}符号 \"[X:{0},Y:{1},CanHold:{2}]\", x, y, z => 用 x, y, z替换 {0} {1} {2}",
+			"returns": "",
+			"params": [
+				{
+					"name": "str",
+					"type": "string",
+					"description": "str"
+				},
+				{
+					"name": "...params",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "formatDate",
+			"memberof": "Utils.StringUtil",
+			"scope": "static",
+			"params": [
+				{
+					"name": "leftTime",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "format",
+					"type": "string",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "gameNumToString",
+			"memberof": "Utils.StringUtil",
+			"scope": "static",
+			"description": "游戏内数字格式化，数字大于亿时显示亿为单位，大于万时显示万为单位。统一显示小数点后两位",
+			"params": [
+				{
+					"name": "value",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "String",
+			"name": "getChinaTimeFormat",
+			"memberof": "Utils.StringUtil",
+			"scope": "static",
+			"description": "格式化时间 通过秒数返回:2012年01月08日23时59分59秒",
+			"params": [
+				{
+					"name": "leftTime",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "isHaveTime",
+					"type": "Boolean",
+					"default": "true",
+					"description": ""
+				},
+				{
+					"name": "isHaveSec",
+					"type": "Boolean",
+					"default": "true",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "getTimeFromSecs",
+			"memberof": "Utils.StringUtil",
+			"scope": "static",
+			"description": "格式化时间leftTime\t\t剩余时间，单位秒type=0 \t\t返回 23:59:59",
+			"params": [
+				{
+					"name": "leftTime",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "getTimeFromSecsInDay",
+			"memberof": "Utils.StringUtil",
+			"scope": "static",
+			"returns": "返回 23时59分59秒格式化时间 通过秒数返回:日时分秒",
+			"params": [
+				{
+					"name": "leftTime",
+					"type": "number",
+					"description": "剩余时间，单位：秒"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "getTimeFromSecsInHour",
+			"memberof": "Utils.StringUtil",
+			"scope": "static",
+			"description": "格式化时间 (1小时内)通过秒数返回 xx分xx秒",
+			"params": [
+				{
+					"name": "leftTime",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "getTimeMoreThanDay",
+			"memberof": "Utils.StringUtil",
+			"scope": "static",
+			"returns": "返回  3天23时59分59秒",
+			"params": [
+				{
+					"name": "leftTime",
+					"type": "number",
+					"description": "剩余时间，单位：秒"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "getTimeMoreThanDayNoSec",
+			"memberof": "Utils.StringUtil",
+			"scope": "static",
+			"returns": "返回  3天23时59分",
+			"params": [
+				{
+					"name": "leftTime",
+					"type": "number",
+					"description": "剩余时间，单位：秒"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "getTimeUnitFromMinu",
+			"memberof": "Utils.StringUtil",
+			"scope": "static",
+			"returns": "返回 23时59分",
+			"params": [
+				{
+					"name": "leftTime",
+					"type": "number",
+					"description": "剩余时间，单位：秒"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "getTimeUnitFromSecs",
+			"memberof": "Utils.StringUtil",
+			"scope": "static",
+			"returns": "type==0时返回 23时59分59秒 type==1时返回 23:59:59",
+			"params": [
+				{
+					"name": "leftTime",
+					"type": "number",
+					"description": "剩余时间，单位：秒"
+				},
+				{
+					"name": "type",
+					"type": "number",
+					"default": "0",
+					"description": "type"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "getUTCTimeFormat",
+			"memberof": "Utils.StringUtil",
+			"scope": "static",
+			"description": "格式化时间 通过秒数返回:2012-01-08 23:59:59",
+			"params": [
+				{
+					"name": "leftTime",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "isHaveTime",
+					"type": "boolean",
+					"default": "true",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "isEmojiCharacter",
+			"memberof": "Utils.StringUtil",
+			"scope": "static",
+			"description": "是否是Emoji表情的符号",
+			"params": [
+				{
+					"name": "codePoint",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "ltrim",
+			"memberof": "Utils.StringUtil",
+			"scope": "static",
+			"params": [
+				{
+					"name": "input",
+					"type": "string",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "any[]",
+			"name": "multiSplit",
+			"memberof": "Utils.StringUtil",
+			"scope": "static",
+			"description": "多级分割字符串",
+			"params": [
+				{
+					"name": "str",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "separators",
+					"type": "string[]",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "parseCInt",
+			"memberof": "Utils.StringUtil",
+			"scope": "static",
+			"params": [
+				{
+					"name": "value",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "replaceGanN",
+			"memberof": "Utils.StringUtil",
+			"scope": "static",
+			"description": "匹配替换\\\\n(用于xml里的\\n)",
+			"params": [
+				{
+					"name": "str",
+					"type": "string",
+					"description": "str"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "replaceKN",
+			"memberof": "Utils.StringUtil",
+			"scope": "static",
+			"description": "匹配替换\\\\n(用于excel里的{n})",
+			"params": [
+				{
+					"name": "str",
+					"type": "string",
+					"description": "str"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "replaceStrColor",
+			"memberof": "Utils.StringUtil",
+			"scope": "static",
+			"description": "替代字符串的颜色，返回html\t\t注意：使用回默认颜色的都要加回默认颜色值",
+			"params": [
+				{
+					"name": "str",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "color",
+					"type": "string",
+					"default": "\"#FFFFFF\"",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "rtrim",
+			"memberof": "Utils.StringUtil",
+			"scope": "static",
+			"params": [
+				{
+					"name": "input",
+					"type": "string",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "[any[]]",
+			"name": "split2",
+			"memberof": "Utils.StringUtil",
+			"scope": "static",
+			"params": [
+				{
+					"name": "str",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "sparator1",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "sparator2",
+					"type": "string",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "egret.ITextElement[]",
+			"name": "toHtml",
+			"memberof": "Utils.StringUtil",
+			"scope": "static",
+			"params": [
+				{
+					"name": "str",
+					"type": "string",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "trim",
+			"memberof": "Utils.StringUtil",
+			"scope": "static",
+			"description": "// 时间相关 end =======================================================================================================",
+			"params": [
+				{
+					"name": "input",
+					"type": "string",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "StringUtil",
+		"memberof": "Utils",
+		"filename": "framework\\utils\\StringUtil.ts",
+		"description": "字符串处理工具"
+	}
+}

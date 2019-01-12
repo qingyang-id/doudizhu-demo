@@ -1,0 +1,34 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "StartScene",
+			"memberof": "StartScene",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "sceneManager",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "stateBegin",
+			"memberof": "StartScene",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "StartScene",
+		"memberof": "",
+		"filename": "application\\scenes\\concreteScene\\StartScene.ts",
+		"augments": [
+			"SceneBase"
+		]
+	}
+}

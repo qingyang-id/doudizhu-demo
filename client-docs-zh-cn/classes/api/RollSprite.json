@@ -1,0 +1,27 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "RollSprite",
+			"memberof": "RollSprite",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "text",
+					"type": "string",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "RollSprite",
+		"memberof": "",
+		"filename": "application\\manager\\NoticeManager.ts",
+		"augments": []
+	}
+}

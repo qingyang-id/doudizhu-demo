@@ -1,0 +1,40 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "AccountHandler",
+			"memberof": "AccountHandler",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "onReceive",
+			"memberof": "AccountHandler",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "subCode",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "value",
+					"type": "any",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "AccountHandler",
+		"memberof": "",
+		"filename": "application\\net\\impl\\AccountHandler.ts",
+		"augments": [
+			"HandlerBase"
+		]
+	}
+}

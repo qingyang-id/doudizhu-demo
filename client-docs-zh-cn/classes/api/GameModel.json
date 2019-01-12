@@ -1,0 +1,36 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "id",
+			"memberof": "GameModel",
+			"scope": "instance",
+			"rwType": 1
+		},
+		{
+			"kind": "member",
+			"type": "MatchRoomDto",
+			"name": "matchRoomDto",
+			"memberof": "GameModel",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "UserDto",
+			"name": "userDto",
+			"memberof": "GameModel",
+			"scope": "instance",
+			"description": "// 用户的数据"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "GameModel",
+		"memberof": "",
+		"filename": "application\\model\\GameModel.ts"
+	}
+}

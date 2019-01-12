@@ -1,0 +1,21 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "SEND",
+			"memberof": "NetEventCode",
+			"scope": "static",
+			"default": "0"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "enum",
+		"name": "NetEventCode",
+		"memberof": "",
+		"filename": "application\\eventCode\\NetEventCode.ts"
+	}
+}

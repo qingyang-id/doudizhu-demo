@@ -1,0 +1,167 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "EIGHT",
+			"memberof": "CardWeight",
+			"scope": "static",
+			"default": "8"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "FIVE",
+			"memberof": "CardWeight",
+			"scope": "static",
+			"default": "5"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "FOUR",
+			"memberof": "CardWeight",
+			"scope": "static",
+			"default": "4"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "JACK",
+			"memberof": "CardWeight",
+			"scope": "static",
+			"default": "11"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "KING",
+			"memberof": "CardWeight",
+			"scope": "static",
+			"default": "13"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "LJOKER",
+			"memberof": "CardWeight",
+			"scope": "static",
+			"default": "17"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "NINE",
+			"memberof": "CardWeight",
+			"scope": "static",
+			"default": "9"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "ONE",
+			"memberof": "CardWeight",
+			"scope": "static",
+			"default": "14"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "QUEEN",
+			"memberof": "CardWeight",
+			"scope": "static",
+			"default": "12"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "SEVEN",
+			"memberof": "CardWeight",
+			"scope": "static",
+			"default": "7"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "SIX",
+			"memberof": "CardWeight",
+			"scope": "static",
+			"default": "6"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "SJOKER",
+			"memberof": "CardWeight",
+			"scope": "static",
+			"default": "16"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "TEN",
+			"memberof": "CardWeight",
+			"scope": "static",
+			"default": "10"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "THREE",
+			"memberof": "CardWeight",
+			"scope": "static",
+			"default": "3"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "TWO",
+			"memberof": "CardWeight",
+			"scope": "static",
+			"default": "15"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "getString",
+			"memberof": "CardWeight",
+			"scope": "static",
+			"params": [
+				{
+					"name": "weight",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "getWeight",
+			"memberof": "CardWeight",
+			"scope": "static",
+			"description": "获取卡牌的权值",
+			"params": [
+				{
+					"name": "cardList",
+					"type": "CardDto[]",
+					"description": "选中的卡牌"
+				},
+				{
+					"name": "cardType",
+					"type": "number",
+					"description": "出牌类型"
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "CardWeight",
+		"memberof": "",
+		"filename": "application\\protocol\\constant\\CardWeight.ts"
+	}
+}

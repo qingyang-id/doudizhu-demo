@@ -1,0 +1,159 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "difference",
+			"memberof": "Utils.ArrayUtil",
+			"scope": "static",
+			"description": "差集",
+			"params": [
+				{
+					"name": "a",
+					"type": "any[]",
+					"description": ""
+				},
+				{
+					"name": "b",
+					"type": "any[]",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "any",
+			"name": "find",
+			"memberof": "Utils.ArrayUtil",
+			"scope": "static",
+			"params": [
+				{
+					"name": "arr",
+					"type": "Array<T>",
+					"description": ""
+				},
+				{
+					"name": "param",
+					"type": "any",
+					"description": ""
+				},
+				{
+					"name": "value",
+					"question": true,
+					"type": "any",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "any",
+			"name": "findAll",
+			"memberof": "Utils.ArrayUtil",
+			"scope": "static",
+			"params": [
+				{
+					"name": "arr",
+					"type": "Array<T>",
+					"description": ""
+				},
+				{
+					"name": "param",
+					"type": "any",
+					"description": ""
+				},
+				{
+					"name": "value",
+					"question": true,
+					"type": "any",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "number[]",
+			"name": "getDeletionNums",
+			"memberof": "Utils.ArrayUtil",
+			"scope": "static",
+			"description": "获得区间范围内缺失的整数数据 eq: [1,2,4,5],0,8  => 0, 3, 6, 7, 8",
+			"params": [
+				{
+					"name": "a",
+					"type": "number[]",
+					"description": ""
+				},
+				{
+					"name": "min",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "max",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "intersection",
+			"memberof": "Utils.ArrayUtil",
+			"scope": "static",
+			"description": "交集",
+			"params": [
+				{
+					"name": "a",
+					"type": "any[]",
+					"description": ""
+				},
+				{
+					"name": "b",
+					"type": "any[]",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "removeRepeat",
+			"memberof": "Utils.ArrayUtil",
+			"scope": "static",
+			"description": "去重",
+			"params": [
+				{
+					"name": "a",
+					"type": "any[]",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "union",
+			"memberof": "Utils.ArrayUtil",
+			"scope": "static",
+			"description": "并集",
+			"params": [
+				{
+					"name": "a",
+					"type": "any[]",
+					"description": ""
+				},
+				{
+					"name": "b",
+					"type": "any[]",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "ArrayUtil",
+		"memberof": "Utils",
+		"filename": "framework\\utils\\ArrayUtil.ts"
+	}
+}

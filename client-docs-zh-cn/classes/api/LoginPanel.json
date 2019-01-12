@@ -1,0 +1,47 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "LoginPanel",
+			"memberof": "LoginPanel",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "childrenCreated",
+			"memberof": "LoginPanel",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "close",
+			"memberof": "LoginPanel",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "createChildren",
+			"memberof": "LoginPanel",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "onDispose",
+			"memberof": "LoginPanel",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "LoginPanel",
+		"memberof": "",
+		"filename": "application\\view\\popup\\LoginPanel.ts",
+		"augments": [
+			"PopUpBase",
+			"UIBase"
+		]
+	}
+}

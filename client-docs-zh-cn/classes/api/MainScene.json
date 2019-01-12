@@ -1,0 +1,34 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "MainScene",
+			"memberof": "MainScene",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "sceneManager",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "stateBegin",
+			"memberof": "MainScene",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "MainScene",
+		"memberof": "",
+		"filename": "application\\scenes\\concreteScene\\MainScene.ts",
+		"augments": [
+			"SceneBase"
+		]
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "HideOther",
+			"memberof": "PopUpShowMode",
+			"scope": "static",
+			"default": "2"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Normal",
+			"memberof": "PopUpShowMode",
+			"scope": "static",
+			"default": "0"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "ReverseChange",
+			"memberof": "PopUpShowMode",
+			"scope": "static",
+			"default": "1"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "enum",
+		"name": "PopUpShowMode",
+		"memberof": "",
+		"filename": "application\\manager\\PopUpEnum.ts",
+		"description": "窗体显示类型"
+	}
+}

@@ -1,0 +1,84 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "opCode",
+			"memberof": "SocketMsg",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "subCode",
+			"memberof": "SocketMsg",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "any",
+			"name": "value",
+			"memberof": "SocketMsg",
+			"scope": "instance"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "SocketMsg",
+			"memberof": "SocketMsg",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "opCode",
+					"question": true,
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "subCode",
+					"question": true,
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "value",
+					"question": true,
+					"type": "any",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "change",
+			"memberof": "SocketMsg",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "opCode",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "subCode",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "value",
+					"type": "any",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "SocketMsg",
+		"memberof": "",
+		"filename": "application\\net\\SocketMsg.ts"
+	}
+}

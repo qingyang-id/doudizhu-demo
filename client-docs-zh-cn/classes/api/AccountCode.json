@@ -1,0 +1,37 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "LOGIN",
+			"memberof": "AccountCode",
+			"scope": "static",
+			"default": "0"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "REGIST_CREQ",
+			"memberof": "AccountCode",
+			"scope": "static",
+			"default": "1"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "REGIST_SRES",
+			"memberof": "AccountCode",
+			"scope": "static",
+			"default": "2"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "enum",
+		"name": "AccountCode",
+		"memberof": "",
+		"filename": "application\\protocol\\code\\AccountCode.ts"
+	}
+}

@@ -1,0 +1,89 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "isRegular",
+			"memberof": "DealDto",
+			"scope": "instance",
+			"description": "是否合法"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "length",
+			"memberof": "DealDto",
+			"scope": "instance",
+			"description": "长度"
+		},
+		{
+			"kind": "member",
+			"type": "CardDto[]",
+			"name": "remainCardList",
+			"memberof": "DealDto",
+			"scope": "instance",
+			"description": "剩余的手牌"
+		},
+		{
+			"kind": "member",
+			"type": "CardDto[]",
+			"name": "selectCardList",
+			"memberof": "DealDto",
+			"scope": "instance",
+			"description": "选中要出的牌"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "type",
+			"memberof": "DealDto",
+			"scope": "instance",
+			"description": "类型"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "userId",
+			"memberof": "DealDto",
+			"scope": "instance",
+			"description": "谁出的牌"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "weight",
+			"memberof": "DealDto",
+			"scope": "instance",
+			"description": "权值"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "DealDto",
+			"memberof": "DealDto",
+			"scope": "instance",
+			"description": "出牌模型构造函数",
+			"params": [
+				{
+					"name": "cardList",
+					"type": "CardDto[]",
+					"description": "cardList"
+				},
+				{
+					"name": "uid",
+					"type": "number",
+					"description": "uid"
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "DealDto",
+		"memberof": "",
+		"filename": "application\\protocol\\dto\\fight\\DealDto.ts"
+	}
+}

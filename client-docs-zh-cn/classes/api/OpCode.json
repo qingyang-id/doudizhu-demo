@@ -1,0 +1,45 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "ACCOUNT",
+			"memberof": "OpCode",
+			"scope": "static",
+			"default": "0"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "FIGHT",
+			"memberof": "OpCode",
+			"scope": "static",
+			"default": "3"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "MATCH",
+			"memberof": "OpCode",
+			"scope": "static",
+			"default": "2"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "USER",
+			"memberof": "OpCode",
+			"scope": "static",
+			"default": "1"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "enum",
+		"name": "OpCode",
+		"memberof": "",
+		"filename": "application\\protocol\\code\\OpCode.ts"
+	}
+}

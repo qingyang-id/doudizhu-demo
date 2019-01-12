@@ -1,0 +1,58 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "TableView",
+			"memberof": "TableView",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "childrenCreated",
+			"memberof": "TableView",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "createChildren",
+			"memberof": "TableView",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "execute",
+			"memberof": "TableView",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "eventCode",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "msg",
+					"type": "any",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "onDispose",
+			"memberof": "TableView",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "TableView",
+		"memberof": "",
+		"filename": "application\\view\\TableView.ts",
+		"augments": [
+			"UIBase"
+		]
+	}
+}

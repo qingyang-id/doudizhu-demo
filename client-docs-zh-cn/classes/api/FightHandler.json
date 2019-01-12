@@ -1,0 +1,40 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "FightHandler",
+			"memberof": "FightHandler",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "onReceive",
+			"memberof": "FightHandler",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "subCode",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "value",
+					"type": "any",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "FightHandler",
+		"memberof": "",
+		"filename": "application\\net\\impl\\FightHandler.ts",
+		"augments": [
+			"HandlerBase"
+		]
+	}
+}

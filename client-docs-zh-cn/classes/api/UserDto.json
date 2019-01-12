@@ -1,0 +1,119 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "been",
+			"memberof": "UserDto",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "exp",
+			"memberof": "UserDto",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "id",
+			"memberof": "UserDto",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "loseCount",
+			"memberof": "UserDto",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "lv",
+			"memberof": "UserDto",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "name",
+			"memberof": "UserDto",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "runCount",
+			"memberof": "UserDto",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "winCount",
+			"memberof": "UserDto",
+			"scope": "instance"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "UserDto",
+			"memberof": "UserDto",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "id",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "name",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "been",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "winCount",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "loseCount",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "runCount",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "lv",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "exp",
+					"type": "number",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "UserDto",
+		"memberof": "",
+		"filename": "application\\protocol\\dto\\UserDto.ts",
+		"description": "用户数据的传输类型"
+	}
+}

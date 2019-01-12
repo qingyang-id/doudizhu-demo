@@ -1,0 +1,269 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "BOOM",
+			"memberof": "CardType",
+			"scope": "static",
+			"description": "炸弹",
+			"default": "9"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "DOUBLE",
+			"memberof": "CardType",
+			"scope": "static",
+			"description": "对牌",
+			"default": "2"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "DOUBLE_STRAIGHT",
+			"memberof": "CardType",
+			"scope": "static",
+			"description": "双顺 44 55 66",
+			"default": "4"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "JOKER_BOOM",
+			"memberof": "CardType",
+			"scope": "static",
+			"description": "王炸",
+			"default": "10"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "NONE",
+			"memberof": "CardType",
+			"scope": "static",
+			"default": "0"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "SINGLE",
+			"memberof": "CardType",
+			"scope": "static",
+			"description": "单牌",
+			"default": "1"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "STRAIGHT",
+			"memberof": "CardType",
+			"scope": "static",
+			"description": "顺子",
+			"default": "3"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "THREE",
+			"memberof": "CardType",
+			"scope": "static",
+			"description": "三不带 444",
+			"default": "6"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "THREE_ONE",
+			"memberof": "CardType",
+			"scope": "static",
+			"description": "三带一 444 5",
+			"default": "7"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "THREE_TWO",
+			"memberof": "CardType",
+			"scope": "static",
+			"description": "三带二 444 55",
+			"default": "8"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "TRIPLE_STRAIGHT",
+			"memberof": "CardType",
+			"scope": "static",
+			"description": "三顺 444 555 666",
+			"default": "5"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "getCardType",
+			"memberof": "CardType",
+			"scope": "static",
+			"params": [
+				{
+					"name": "cardList",
+					"type": "CardDto[]",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "isBoom",
+			"memberof": "CardType",
+			"scope": "static",
+			"description": "判断是否为炸弹",
+			"params": [
+				{
+					"name": "cards",
+					"type": "CardDto[]",
+					"description": "cards"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "isDouble",
+			"memberof": "CardType",
+			"scope": "static",
+			"description": "判断是否为对牌 44",
+			"params": [
+				{
+					"name": "cards",
+					"type": "CardDto[]",
+					"description": "选择的手牌"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "isDoubleStraight",
+			"memberof": "CardType",
+			"scope": "static",
+			"description": "是否为双顺 33 44 55",
+			"params": [
+				{
+					"name": "cards",
+					"type": "CardDto[]",
+					"description": "cards"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "isJokerBoom",
+			"memberof": "CardType",
+			"scope": "static",
+			"description": "判断是否为王炸",
+			"params": [
+				{
+					"name": "cards",
+					"type": "CardDto[]",
+					"description": "cards"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "isSingle",
+			"memberof": "CardType",
+			"scope": "static",
+			"description": "是否为单牌",
+			"params": [
+				{
+					"name": "cards",
+					"type": "CardDto[]",
+					"description": "选择的手牌 3"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "boolean",
+			"name": "isStraight",
+			"memberof": "CardType",
+			"scope": "static",
+			"description": "是否为顺子",
+			"params": [
+				{
+					"name": "cards",
+					"type": "CardDto[]",
+					"description": "34567"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "isThree",
+			"memberof": "CardType",
+			"scope": "static",
+			"description": "是否为三不带 333(默认已排好序)",
+			"params": [
+				{
+					"name": "cards",
+					"type": "CardDto[]",
+					"description": "cards"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "isThreeAndOne",
+			"memberof": "CardType",
+			"scope": "static",
+			"description": "是否为三带一 333 4(默认已排好序)",
+			"params": [
+				{
+					"name": "cards",
+					"type": "CardDto[]",
+					"description": "cards"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "isThreeAndTwo",
+			"memberof": "CardType",
+			"scope": "static",
+			"description": "是否为三带二",
+			"params": [
+				{
+					"name": "cards",
+					"type": "CardDto[]",
+					"description": "cards"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "isTripleStraight",
+			"memberof": "CardType",
+			"scope": "static",
+			"description": "是否为飞机 333 444 555",
+			"params": [
+				{
+					"name": "cards",
+					"type": "CardDto[]",
+					"description": "cards"
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "CardType",
+		"memberof": "",
+		"filename": "application\\protocol\\constant\\CardType.ts"
+	}
+}

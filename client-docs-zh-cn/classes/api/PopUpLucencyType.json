@@ -1,0 +1,50 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Impenetrable",
+			"memberof": "PopUpLucencyType",
+			"scope": "static",
+			"description": "低透明度,不能穿透",
+			"default": "2"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Lucency",
+			"memberof": "PopUpLucencyType",
+			"scope": "static",
+			"description": "完全透明,但不能穿透",
+			"default": "0"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Penetrate",
+			"memberof": "PopUpLucencyType",
+			"scope": "static",
+			"description": "可以穿透",
+			"default": "3"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "Translucence",
+			"memberof": "PopUpLucencyType",
+			"scope": "static",
+			"description": "半透明度,不能穿透",
+			"default": "1"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "enum",
+		"name": "PopUpLucencyType",
+		"memberof": "",
+		"filename": "application\\manager\\PopUpEnum.ts",
+		"description": "窗体透明度类型"
+	}
+}

@@ -1,0 +1,34 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "ErrorSprite",
+			"memberof": "ErrorSprite",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "text",
+					"type": "string",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "removeTween",
+			"memberof": "ErrorSprite",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "ErrorSprite",
+		"memberof": "",
+		"filename": "application\\manager\\NoticeManager.ts",
+		"augments": []
+	}
+}

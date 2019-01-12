@@ -1,0 +1,34 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "FightScene",
+			"memberof": "FightScene",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "sceneManager",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "stateBegin",
+			"memberof": "FightScene",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "FightScene",
+		"memberof": "",
+		"filename": "application\\scenes\\concreteScene\\FightScene.ts",
+		"augments": [
+			"SceneBase"
+		]
+	}
+}

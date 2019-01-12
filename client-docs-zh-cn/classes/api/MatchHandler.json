@@ -1,0 +1,40 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "MatchHandler",
+			"memberof": "MatchHandler",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "onReceive",
+			"memberof": "MatchHandler",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "subCode",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "value",
+					"type": "any",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "MatchHandler",
+		"memberof": "",
+		"filename": "application\\net\\impl\\MatchHandler.ts",
+		"augments": [
+			"HandlerBase"
+		]
+	}
+}

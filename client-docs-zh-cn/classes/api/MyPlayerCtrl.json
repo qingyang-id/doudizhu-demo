@@ -1,0 +1,52 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "MyPlayerCtrl",
+			"memberof": "MyPlayerCtrl",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "childrenCreated",
+			"memberof": "MyPlayerCtrl",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "createChildren",
+			"memberof": "MyPlayerCtrl",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "execute",
+			"memberof": "MyPlayerCtrl",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "eventCode",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "msg",
+					"type": "any",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "MyPlayerCtrl",
+		"memberof": "",
+		"filename": "application\\character\\MyPlayerCtrl.ts",
+		"augments": [
+			"UIBase"
+		]
+	}
+}

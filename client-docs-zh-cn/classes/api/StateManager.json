@@ -1,0 +1,34 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "setState",
+			"memberof": "StateManager",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "state",
+					"type": "IScene",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "stateUpdate",
+			"memberof": "StateManager",
+			"scope": "instance",
+			"description": "// 更新"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "StateManager",
+		"memberof": "",
+		"filename": "application\\scenes\\SceneManager.ts",
+		"description": "状态控制者"
+	}
+}

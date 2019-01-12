@@ -1,0 +1,61 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "SceneBase",
+			"memberof": "SceneBase",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "sceneManager",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "getStateName",
+			"memberof": "SceneBase",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "stateBegin",
+			"memberof": "SceneBase",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "stateEnd",
+			"memberof": "SceneBase",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "stateUpdate",
+			"memberof": "SceneBase",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "SceneBase",
+		"memberof": "",
+		"filename": "application\\scenes\\SceneBase.ts",
+		"augments": [],
+		"implements": [
+			{
+				"name": "IScene"
+			}
+		],
+		"children": [
+			"CreateScene",
+			"FightScene",
+			"MainScene",
+			"StartScene"
+		]
+	}
+}

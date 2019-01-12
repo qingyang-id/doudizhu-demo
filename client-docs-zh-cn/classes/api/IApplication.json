@@ -1,0 +1,41 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "onDisconnect",
+			"memberof": "IApplication",
+			"scope": "instance",
+			"description": "断开连接",
+			"params": [
+				{
+					"name": "client",
+					"type": "ClientPeer",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "onReceive",
+			"memberof": "IApplication",
+			"scope": "instance",
+			"description": "接受数据",
+			"params": [
+				{
+					"name": "msg",
+					"type": "SocketMsg",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "interface",
+		"name": "IApplication",
+		"memberof": "",
+		"filename": "application\\net\\IApplication.ts"
+	}
+}

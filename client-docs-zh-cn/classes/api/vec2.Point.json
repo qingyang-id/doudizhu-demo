@@ -1,0 +1,67 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "x",
+			"memberof": "vec2.Point",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "y",
+			"memberof": "vec2.Point",
+			"scope": "instance"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "Point",
+			"memberof": "vec2.Point",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "x",
+					"type": "number",
+					"default": "0",
+					"description": ""
+				},
+				{
+					"name": "y",
+					"type": "number",
+					"default": "0",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "clone",
+			"memberof": "vec2.Point",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "equals",
+			"memberof": "vec2.Point",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "p",
+					"type": "vec2.Point",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "Point",
+		"memberof": "vec2",
+		"filename": "framework\\utils\\vec2.ts"
+	}
+}

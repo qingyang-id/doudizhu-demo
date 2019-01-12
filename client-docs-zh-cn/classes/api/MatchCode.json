@@ -1,0 +1,89 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "ENTER_BRO",
+			"memberof": "MatchCode",
+			"scope": "static",
+			"default": "2"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "ENTER_CREQ",
+			"memberof": "MatchCode",
+			"scope": "static",
+			"description": "// 进入匹配队列",
+			"default": "0"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "ENTER_SRES",
+			"memberof": "MatchCode",
+			"scope": "static",
+			"default": "1"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "LEAVE_BRO",
+			"memberof": "MatchCode",
+			"scope": "static",
+			"default": "5"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "LEAVE_CREQ",
+			"memberof": "MatchCode",
+			"scope": "static",
+			"description": "// 离开匹配队列",
+			"default": "3"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "LEAVE_SERS",
+			"memberof": "MatchCode",
+			"scope": "static",
+			"default": "4"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "READY_BRO",
+			"memberof": "MatchCode",
+			"scope": "static",
+			"default": "7"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "READY_CREQ",
+			"memberof": "MatchCode",
+			"scope": "static",
+			"description": "// 准备",
+			"default": "6"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "START_BRO",
+			"memberof": "MatchCode",
+			"scope": "static",
+			"description": "// 开始游戏",
+			"default": "8"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "enum",
+		"name": "MatchCode",
+		"memberof": "",
+		"filename": "application\\protocol\\code\\MatchCode.ts"
+	}
+}

@@ -1,0 +1,118 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "eui.Label",
+			"name": "cardNum",
+			"memberof": "PlayerBaseView",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "OperShowCom",
+			"name": "operShowCom",
+			"memberof": "PlayerBaseView",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "eui.Image",
+			"name": "playerImg",
+			"memberof": "PlayerBaseView",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "UserDto",
+			"name": "userDto",
+			"memberof": "PlayerBaseView",
+			"scope": "instance"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "PlayerBaseView",
+			"memberof": "PlayerBaseView",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "childrenCreated",
+			"memberof": "PlayerBaseView",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "createChildren",
+			"memberof": "PlayerBaseView",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "execute",
+			"memberof": "PlayerBaseView",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "eventCode",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "msg",
+					"type": "any",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "onDispose",
+			"memberof": "PlayerBaseView",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "readyState",
+			"memberof": "PlayerBaseView",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "setIdentity",
+			"memberof": "PlayerBaseView",
+			"scope": "instance",
+			"description": "设置身份",
+			"params": [
+				{
+					"name": "identity",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "show",
+			"memberof": "PlayerBaseView",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "PlayerBaseView",
+		"memberof": "",
+		"filename": "application\\view\\player\\PlayerBaseView.ts",
+		"augments": [
+			"UIBase"
+		],
+		"children": [
+			"LeftPlayerView",
+			"RightPlayerView",
+			"UserPlayerView"
+		]
+	}
+}

@@ -1,0 +1,68 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"name": "cardDto",
+			"memberof": "CardCtrl",
+			"scope": "instance",
+			"rwType": 1
+		},
+		{
+			"kind": "member",
+			"type": "boolean",
+			"name": "selected",
+			"memberof": "CardCtrl",
+			"scope": "instance"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "CardCtrl",
+			"memberof": "CardCtrl",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "childrenCreated",
+			"memberof": "CardCtrl",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "createChildren",
+			"memberof": "CardCtrl",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "init",
+			"memberof": "CardCtrl",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "card",
+					"type": "CardDto",
+					"description": ""
+				},
+				{
+					"name": "isMine",
+					"type": "boolean",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "CardCtrl",
+		"memberof": "",
+		"filename": "application\\character\\CardCtrl.ts",
+		"description": "卡牌控制类",
+		"augments": [
+			"UIBase"
+		]
+	}
+}

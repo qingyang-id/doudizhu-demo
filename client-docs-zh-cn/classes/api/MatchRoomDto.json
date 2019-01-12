@@ -1,0 +1,139 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "leftId",
+			"memberof": "MatchRoomDto",
+			"scope": "instance",
+			"description": "重置位置在每次玩家进入或者离开房间的时候，都需要调整一下位置"
+		},
+		{
+			"kind": "member",
+			"type": "number[]",
+			"name": "readyUidList",
+			"memberof": "MatchRoomDto",
+			"scope": "instance",
+			"description": "准备的玩家id列表",
+			"default": "[]"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "rightId",
+			"memberof": "MatchRoomDto",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "number[]",
+			"name": "uidList",
+			"memberof": "MatchRoomDto",
+			"scope": "instance",
+			"description": "存储玩家进入的顺序",
+			"default": "[]"
+		},
+		{
+			"kind": "member",
+			"type": "{[key:number]:UserDto}",
+			"name": "uidUserDict",
+			"memberof": "MatchRoomDto",
+			"scope": "instance",
+			"description": "用户id对应用户数据的传输模型",
+			"default": "{}"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "add",
+			"memberof": "MatchRoomDto",
+			"scope": "instance",
+			"description": "玩家进入房间",
+			"params": [
+				{
+					"name": "newUser",
+					"type": "UserDto",
+					"description": "newUser"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "hasReady",
+			"memberof": "MatchRoomDto",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "userId",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "leave",
+			"memberof": "MatchRoomDto",
+			"scope": "instance",
+			"description": "玩家离开房间",
+			"params": [
+				{
+					"name": "userId",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "ready",
+			"memberof": "MatchRoomDto",
+			"scope": "instance",
+			"description": "玩家准备",
+			"params": [
+				{
+					"name": "userId",
+					"type": "number",
+					"description": "userId"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "resetPos",
+			"memberof": "MatchRoomDto",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "myUserId",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "setData",
+			"memberof": "MatchRoomDto",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "matchRoomDto",
+					"type": "MatchRoomDto",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "MatchRoomDto",
+		"memberof": "",
+		"filename": "application\\protocol\\dto\\MatchRoomDto.ts",
+		"description": "房间数据对应的传输模型"
+	}
+}

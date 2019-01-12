@@ -1,0 +1,34 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "beenCount",
+			"memberof": "OverDto",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "winIdentity",
+			"memberof": "OverDto",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "number[]",
+			"name": "winUidList",
+			"memberof": "OverDto",
+			"scope": "instance"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "OverDto",
+		"memberof": "",
+		"filename": "application\\protocol\\dto\\fight\\OverDto.ts"
+	}
+}

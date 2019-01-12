@@ -1,0 +1,43 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"type": "SocketMsg",
+			"name": "decodePacket",
+			"memberof": "EncodeTool",
+			"scope": "static",
+			"description": "解析数据包",
+			"params": [
+				{
+					"name": "byte",
+					"type": "egret.ByteArray",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "egret.ByteArray",
+			"name": "encodePacket",
+			"memberof": "EncodeTool",
+			"scope": "static",
+			"description": "构造数据包",
+			"params": [
+				{
+					"name": "msg",
+					"type": "SocketMsg",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "EncodeTool",
+		"memberof": "",
+		"filename": "application\\net\\EncodeTool.ts"
+	}
+}

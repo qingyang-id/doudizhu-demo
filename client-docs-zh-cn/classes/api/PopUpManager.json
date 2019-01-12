@@ -1,0 +1,108 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"type": "T",
+			"name": "addPopUp",
+			"memberof": "PopUpManager",
+			"scope": "instance",
+			"description": "// 弹出窗体 ==============",
+			"params": [
+				{
+					"name": "t",
+					"type": "{new():T}",
+					"description": ""
+				},
+				{
+					"name": "showMode",
+					"type": "PopUpShowMode",
+					"default": "PopUpShowMode.Normal",
+					"description": ""
+				},
+				{
+					"name": "lucencyType",
+					"type": "PopUpLucencyType",
+					"default": "PopUpLucencyType.Impenetrable",
+					"description": ""
+				},
+				{
+					"name": "isCenter",
+					"default": "true",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "getInstance",
+			"memberof": "PopUpManager",
+			"scope": "static"
+		},
+		{
+			"kind": "function",
+			"name": "getPopUp",
+			"memberof": "PopUpManager",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "t",
+					"type": "{new(a):T}",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "removeAllPopUp",
+			"memberof": "PopUpManager",
+			"scope": "instance",
+			"description": "// 关闭所有窗体"
+		},
+		{
+			"kind": "function",
+			"name": "removePopUp",
+			"memberof": "PopUpManager",
+			"scope": "instance",
+			"description": "// 关闭弹出窗体 =============",
+			"params": [
+				{
+					"name": "t",
+					"type": "{new(a):T}",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "start",
+			"memberof": "PopUpManager",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "popUpContainer",
+					"type": "eui.Component",
+					"description": ""
+				},
+				{
+					"name": "stagewidth",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "stageHeight",
+					"type": "number",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "PopUpManager",
+		"memberof": "",
+		"filename": "application\\manager\\PopUpManager.ts"
+	}
+}

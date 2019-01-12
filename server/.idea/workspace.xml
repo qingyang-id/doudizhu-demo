@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2903811c-5874-420c-98d8-c09283ecfd84" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../client/egretProperties.json" beforeDir="false" afterPath="$PROJECT_DIR$/../client/egretProperties.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../client/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/libs/modules/egret/egret.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../client/libs/modules/egret/egret.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/libs/modules/egret/egret.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/libs/modules/egret/egret.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/libs/modules/egret/egret.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/libs/modules/egret/egret.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/libs/modules/egret/egret.native.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/libs/modules/egret/egret.native.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/libs/modules/egret/egret.web.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/libs/modules/egret/egret.web.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/libs/modules/egret/egret.web.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/libs/modules/egret/egret.web.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/libs/modules/eui/eui.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../client/libs/modules/eui/eui.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/libs/modules/eui/eui.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/libs/modules/eui/eui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/libs/modules/eui/eui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/libs/modules/eui/eui.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/libs/modules/game/game.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../client/libs/modules/game/game.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/libs/modules/game/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/libs/modules/game/game.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/libs/modules/game/game.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/libs/modules/game/game.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/libs/modules/res/res.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../client/libs/modules/res/res.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/libs/modules/res/res.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/libs/modules/res/res.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/libs/modules/res/res.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/libs/modules/res/res.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/libs/modules/socket/socket.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../client/libs/modules/socket/socket.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/libs/modules/socket/socket.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/libs/modules/socket/socket.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/libs/modules/socket/socket.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/libs/modules/socket/socket.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/libs/modules/tween/tween.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/libs/modules/tween/tween.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/libs/modules/tween/tween.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/libs/modules/tween/tween.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../client/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/resource/default.res.json" beforeDir="false" afterPath="$PROJECT_DIR$/../client/resource/default.res.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/resource/game_skins/StartSkin.exml" beforeDir="false" afterPath="$PROJECT_DIR$/../client/resource/game_skins/StartSkin.exml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/Main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/Main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/application/Game.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/application/Game.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/application/base/UIBase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/application/base/UIBase.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/application/net/ClientPeer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/application/net/ClientPeer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/application/net/NetManager.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/application/net/NetManager.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/template/runtime/native_require.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client/template/runtime/native_require.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../client/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/ClientPeer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/base/ClientPeer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/ServerPeer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/base/ServerPeer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameserver/NetMsgCenter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/gameserver/NetMsgCenter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameserver/Program.ts" beforeDir="false" afterPath="$PROJECT_DIR$/gameserver/Program.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameserver/logic/AccountHandler.ts" beforeDir="false" afterPath="$PROJECT_DIR$/gameserver/logic/AccountHandler.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typings/globals/node/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/typings/globals/node/index.d.ts" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2014383680">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="js" value="5" />
+          <entry key="json" value="3" />
+          <entry key="ts" value="74" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="3" />
+          <entry key="JavaScript" value="5" />
+          <entry key="TypeScript" value="74" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="TypeScriptServerServiceImpl" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="ts" value="343" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="TypeScript" value="343" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gameserver/Program.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gameserver/NetMsgCenter.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gameserver/logic/UserHandler.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-871">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gameserver/logic/AccountHandler.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1332">
+              <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/base/ClientPeer.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <folding>
+                <element signature="n#ws#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gameserver/cache/Caches.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gameserver/cache/AccountCache.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protocol/Code/OpCode.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>app crashed</find>
+      <find>'net'</find>
+      <find>serverSocket</find>
+      <find>processAccept</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/base</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../../../java/coin-market/springboot-demos" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../../java/ethereum/blockchain-java" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../../java/ethereum/erc20-rest-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../../java/ethereum/examples/spring-boot" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../../java/ethereum/web3j-spring-boot-starter" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../../java/ethereumj.starter" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/base/ClientPeer.ts" />
+        <option value="$PROJECT_DIR$/gameserver/Program.ts" />
+        <option value="$PROJECT_DIR$/base/ServerPeer.ts" />
+        <option value="$PROJECT_DIR$/gameserver/NetMsgCenter.ts" />
+        <option value="$PROJECT_DIR$/gameserver/logic/AccountHandler.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <exe-path />
+    <config-path />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../../../base/maven/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../../../../../base/maven/apache-maven-3.5.2/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="-1920" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>ECMAScript 6 migration aidsJavaScript</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Redundant constructsKotlin</id>
+          </State>
+          <State>
+            <id>Style issuesKotlin</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Duplicates</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="gameserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="$USER_HOME$/.nvm/versions/node/v6.10.2/bin/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.253212" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32996973" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Problems" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/node_modules/nodemon/lib/monitor/run.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="213" column="38" lean-forward="true" selection-start-line="213" selection-start-column="38" selection-end-line="213" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/net/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protocol/constant/CardColor.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protocol/constant/CardWeight.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="51" column="32" lean-forward="true" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protocol/constant/CardType.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1991">
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin-debug/base/ServerPeer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/ServerPeer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="41" column="28" lean-forward="true" selection-start-line="41" selection-end-line="42" />
+          <folding>
+            <element signature="n#ws#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin-debug/base/ClientPeer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-583" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin-debug/base/ClientPeerPool.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin-debug/base/SocketMsg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/IApplication.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/EncodeTool.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/SocketMsg.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/ClientPeerPool.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/concurrent/ConcurrentInt.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-252" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protocol/dto/MatchRoomDto.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="86" column="9" lean-forward="true" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protocol/dto/GrabDto.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protocol/dto/fight/PlayerDto.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protocol/dto/fight/OverDto.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protocol/dto/fight/DealDto.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protocol/dto/fight/CardDto.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protocol/dto/AccountDto.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protocol/constant/Identity.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protocol/Code/FightCode.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protocol/Code/AccountCode.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protocol/Code/UserCode.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protocol/Code/MatchCode.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protocol/dto/UserDto.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameserver/logic/IHandler.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameserver/Program.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protocol/Code/OpCode.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameserver/cache/Caches.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameserver/NetMsgCenter.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameserver/logic/UserHandler.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-871">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameserver/cache/AccountCache.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameserver/logic/AccountHandler.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1332">
+          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/ClientPeer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding>
+            <element signature="n#ws#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

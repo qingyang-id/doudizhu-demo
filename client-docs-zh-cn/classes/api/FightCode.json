@@ -1,0 +1,121 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "DEAL_BRO",
+			"memberof": "FightCode",
+			"scope": "static",
+			"description": "服务器服务器广播出牌的结果",
+			"default": "7"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "DEAL_CREQ",
+			"memberof": "FightCode",
+			"scope": "static",
+			"description": "出牌请求",
+			"default": "5"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "DEAL_SRES",
+			"memberof": "FightCode",
+			"scope": "static",
+			"description": "服务器给客户端出牌的响应",
+			"default": "6"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "GET_CARD_SRES",
+			"memberof": "FightCode",
+			"scope": "static",
+			"description": "服务器给客户端卡牌的响应",
+			"default": "0"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "GRAB_LANDLORD_BRO",
+			"memberof": "FightCode",
+			"scope": "static",
+			"description": "服务器广播抢地主的结果",
+			"default": "3"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "GRAB_LANDLORD_CREQ",
+			"memberof": "FightCode",
+			"scope": "static",
+			"description": "客户端发起抢地主的请求",
+			"default": "2"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "OVER_BRO",
+			"memberof": "FightCode",
+			"scope": "static",
+			"description": "服务器广播游戏结束",
+			"default": "11"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "PASS_BRO",
+			"memberof": "FightCode",
+			"scope": "static",
+			"description": "服务器服务器广播不出牌的结果",
+			"default": "10"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "PASS_CREQ",
+			"memberof": "FightCode",
+			"scope": "static",
+			"description": "不出牌请求",
+			"default": "8"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "PASS_SRES",
+			"memberof": "FightCode",
+			"scope": "static",
+			"description": "服务器给客户端不出牌的响应",
+			"default": "9"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "TURN_DEAL_BRO",
+			"memberof": "FightCode",
+			"scope": "static",
+			"description": "服务器广播转换出牌的结果",
+			"default": "4"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "TURN_GRAB_BRO",
+			"memberof": "FightCode",
+			"scope": "static",
+			"description": "服务器广播下一个玩家抢地主的结果",
+			"default": "1"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "enum",
+		"name": "FightCode",
+		"memberof": "",
+		"filename": "application\\protocol\\code\\FightCode.ts"
+	}
+}

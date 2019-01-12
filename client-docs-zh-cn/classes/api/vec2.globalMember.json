@@ -1,0 +1,18 @@
+{
+	"globalMember": [
+		{
+			"filename": "framework\\utils\\vec2.ts",
+			"kind": "globalMember",
+			"name": "pOne",
+			"memberof": "vec2",
+			"scope": "instance"
+		},
+		{
+			"filename": "framework\\utils\\vec2.ts",
+			"kind": "globalMember",
+			"name": "pZero",
+			"memberof": "vec2",
+			"scope": "instance"
+		}
+	]
+}

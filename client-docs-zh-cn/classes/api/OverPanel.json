@@ -1,0 +1,59 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "OverPanel",
+			"memberof": "OverPanel",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "childrenCreated",
+			"memberof": "OverPanel",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "createChildren",
+			"memberof": "OverPanel",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "execute",
+			"memberof": "OverPanel",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "eventCode",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "msg",
+					"type": "any",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "onDispose",
+			"memberof": "OverPanel",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "OverPanel",
+		"memberof": "",
+		"filename": "application\\view\\popup\\OverPanel.ts",
+		"augments": [
+			"PopUpBase",
+			"UIBase"
+		]
+	}
+}

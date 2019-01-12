@@ -1,0 +1,31 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "execute",
+			"memberof": "IBase",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "eventCode",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "msg",
+					"type": "any",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "interface",
+		"name": "IBase",
+		"memberof": "",
+		"filename": "framework\\IBase.ts"
+	}
+}

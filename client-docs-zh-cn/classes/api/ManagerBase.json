@@ -1,0 +1,115 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "add",
+			"memberof": "ManagerBase",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "eventCode",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "base",
+					"type": "IBase",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "addMul",
+			"memberof": "ManagerBase",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "eventCodes",
+					"type": "number[]",
+					"description": ""
+				},
+				{
+					"name": "base",
+					"type": "IBase",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "execute",
+			"memberof": "ManagerBase",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "eventCode",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "msg",
+					"type": "any",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "remove",
+			"memberof": "ManagerBase",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "eventCode",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "base",
+					"type": "IBase",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "removeMul",
+			"memberof": "ManagerBase",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "eventCodes",
+					"type": "number[]",
+					"description": ""
+				},
+				{
+					"name": "base",
+					"type": "IBase",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "ManagerBase",
+		"memberof": "",
+		"filename": "framework\\ManagerBase.ts",
+		"implements": [
+			{
+				"name": "IBase"
+			}
+		],
+		"children": [
+			"UIManager",
+			"NetManager"
+		]
+	}
+}

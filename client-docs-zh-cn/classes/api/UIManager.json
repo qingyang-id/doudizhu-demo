@@ -1,0 +1,85 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "add",
+			"memberof": "ManagerBase",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "eventCode",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "base",
+					"type": "IBase",
+					"description": ""
+				}
+			],
+			"inherited": true,
+			"inherits": "ManagerBase"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "addMul",
+			"memberof": "ManagerBase",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "eventCodes",
+					"type": "number[]",
+					"description": ""
+				},
+				{
+					"name": "base",
+					"type": "IBase",
+					"description": ""
+				}
+			],
+			"inherited": true,
+			"inherits": "ManagerBase"
+		},
+		{
+			"kind": "function",
+			"name": "getInstance",
+			"memberof": "UIManager",
+			"scope": "static"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "removeMul",
+			"memberof": "ManagerBase",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "eventCodes",
+					"type": "number[]",
+					"description": ""
+				},
+				{
+					"name": "base",
+					"type": "IBase",
+					"description": ""
+				}
+			],
+			"inherited": true,
+			"inherits": "ManagerBase"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "UIManager",
+		"memberof": "",
+		"filename": "application\\manager\\UIManager.ts",
+		"augments": [
+			"ManagerBase"
+		]
+	}
+}

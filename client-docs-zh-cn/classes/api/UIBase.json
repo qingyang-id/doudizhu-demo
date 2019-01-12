@@ -1,0 +1,97 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "UIBase",
+			"memberof": "UIBase",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "bind",
+			"memberof": "UIBase",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "dispatch",
+			"memberof": "UIBase",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "areaCode",
+					"type": "AreaCode",
+					"description": ""
+				},
+				{
+					"name": "eventCode",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "msg",
+					"type": "any",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "execute",
+			"memberof": "UIBase",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "eventCode",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "msg",
+					"type": "any",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "onDestory",
+			"memberof": "UIBase",
+			"scope": "instance",
+			"description": "// 离开舞台的时候自动解除所有的事件监听"
+		},
+		{
+			"kind": "function",
+			"name": "unBind",
+			"memberof": "UIBase",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "UIBase",
+		"memberof": "",
+		"filename": "application\\base\\UIBase.ts",
+		"augments": [],
+		"implements": [
+			{
+				"name": "IBase"
+			}
+		],
+		"children": [
+			"PopUpBase",
+			"CardCtrl",
+			"MyPlayerCtrl",
+			"ChatView",
+			"CreateView",
+			"FightView",
+			"MainView",
+			"StartView",
+			"TableView",
+			"PlayerBaseView"
+		]
+	}
+}

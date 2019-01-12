@@ -1,0 +1,21 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "GameModel",
+			"name": "gameModel",
+			"memberof": "Models",
+			"scope": "static",
+			"default": "new GameModel()"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "Models",
+		"memberof": "",
+		"filename": "application\\model\\Models.ts"
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "OperCom",
+			"memberof": "OperCom",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "grab",
+			"memberof": "OperCom",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "normal",
+			"memberof": "OperCom",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "outCard",
+			"memberof": "OperCom",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "ready",
+			"memberof": "OperCom",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "OperCom",
+		"memberof": "",
+		"filename": "application\\view\\player\\oper\\OperCom.ts",
+		"augments": []
+	}
+}

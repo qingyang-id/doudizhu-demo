@@ -1,0 +1,34 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "Function",
+			"name": "debug",
+			"memberof": "Log",
+			"scope": "static"
+		},
+		{
+			"kind": "member",
+			"type": "Function",
+			"name": "error",
+			"memberof": "Log",
+			"scope": "static"
+		},
+		{
+			"kind": "member",
+			"type": "Function",
+			"name": "warn",
+			"memberof": "Log",
+			"scope": "static"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "Log",
+		"memberof": "",
+		"filename": "framework\\utils\\Log.ts"
+	}
+}

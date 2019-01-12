@@ -1,0 +1,115 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "eui.Label",
+			"name": "cardNum",
+			"memberof": "PlayerBaseView",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "PlayerBaseView"
+		},
+		{
+			"kind": "member",
+			"type": "OperShowCom",
+			"name": "operShowCom",
+			"memberof": "PlayerBaseView",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "PlayerBaseView"
+		},
+		{
+			"kind": "member",
+			"type": "eui.Image",
+			"name": "playerImg",
+			"memberof": "PlayerBaseView",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "PlayerBaseView"
+		},
+		{
+			"kind": "member",
+			"type": "UserDto",
+			"name": "userDto",
+			"memberof": "PlayerBaseView",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "PlayerBaseView"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "UserPlayerView",
+			"memberof": "UserPlayerView",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "childrenCreated",
+			"memberof": "UserPlayerView",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "createChildren",
+			"memberof": "UserPlayerView",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "execute",
+			"memberof": "UserPlayerView",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "eventCode",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "msg",
+					"type": "any",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "onDispose",
+			"memberof": "UserPlayerView",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "onOperComClick",
+			"memberof": "UserPlayerView",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "evt",
+					"type": "egret.TouchEvent",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "readyState",
+			"memberof": "UserPlayerView",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "UserPlayerView",
+		"memberof": "",
+		"filename": "application\\view\\player\\UserPlayerView.ts",
+		"augments": [
+			"PlayerBaseView",
+			"UIBase"
+		]
+	}
+}

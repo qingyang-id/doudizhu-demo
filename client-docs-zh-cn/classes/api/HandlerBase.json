@@ -1,0 +1,62 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "dispatch",
+			"memberof": "HandlerBase",
+			"scope": "instance",
+			"description": "为了方便发消息",
+			"params": [
+				{
+					"name": "areaCode",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "eventCode",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "message",
+					"type": "any",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "onReceive",
+			"memberof": "HandlerBase",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "subCode",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "value",
+					"type": "any",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "HandlerBase",
+		"memberof": "",
+		"filename": "application\\net\\HandlerBase.ts",
+		"description": "客户端处理基类",
+		"children": [
+			"AccountHandler",
+			"FightHandler",
+			"MatchHandler",
+			"UserHandler"
+		]
+	}
+}

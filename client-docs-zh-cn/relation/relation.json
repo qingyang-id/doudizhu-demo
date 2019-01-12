@@ -1,0 +1,442 @@
+{
+	"api": {
+		"": {
+			"class": [
+				{
+					"name": "AssetAdapter",
+					"description": "//////////////////////////////////////////////////////////////////////////////////////"
+				},
+				{
+					"name": "LoadingUI",
+					"description": "//////////////////////////////////////////////////////////////////////////////////////"
+				},
+				{
+					"name": "Main",
+					"description": "//////////////////////////////////////////////////////////////////////////////////////"
+				},
+				{
+					"name": "ThemeAdapter",
+					"description": "//////////////////////////////////////////////////////////////////////////////////////"
+				},
+				{
+					"name": "Game",
+					"description": ""
+				},
+				{
+					"name": "PopUpBase",
+					"description": ""
+				},
+				{
+					"name": "UIBase",
+					"description": ""
+				},
+				{
+					"name": "CardCtrl",
+					"description": "卡牌控制类"
+				},
+				{
+					"name": "MyPlayerCtrl",
+					"description": ""
+				},
+				{
+					"name": "NoticeManager",
+					"description": "提示信息管理类"
+				},
+				{
+					"name": "ErrorSprite",
+					"description": ""
+				},
+				{
+					"name": "NoticeSprite",
+					"description": ""
+				},
+				{
+					"name": "RollSprite",
+					"description": ""
+				},
+				{
+					"name": "PopUpManager",
+					"description": ""
+				},
+				{
+					"name": "UIManager",
+					"description": ""
+				},
+				{
+					"name": "GameModel",
+					"description": ""
+				},
+				{
+					"name": "Models",
+					"description": ""
+				},
+				{
+					"name": "ClientPeer",
+					"description": ""
+				},
+				{
+					"name": "EncodeTool",
+					"description": ""
+				},
+				{
+					"name": "HandlerBase",
+					"description": "客户端处理基类"
+				},
+				{
+					"name": "NetManager",
+					"description": ""
+				},
+				{
+					"name": "SocketMsg",
+					"description": ""
+				},
+				{
+					"name": "AccountHandler",
+					"description": ""
+				},
+				{
+					"name": "FightHandler",
+					"description": ""
+				},
+				{
+					"name": "MatchHandler",
+					"description": ""
+				},
+				{
+					"name": "UserHandler",
+					"description": ""
+				},
+				{
+					"name": "CardColor",
+					"description": ""
+				},
+				{
+					"name": "CardType",
+					"description": ""
+				},
+				{
+					"name": "CardWeight",
+					"description": ""
+				},
+				{
+					"name": "Identity",
+					"description": ""
+				},
+				{
+					"name": "AccountDto",
+					"description": ""
+				},
+				{
+					"name": "GrabDto",
+					"description": ""
+				},
+				{
+					"name": "MatchRoomDto",
+					"description": "房间数据对应的传输模型"
+				},
+				{
+					"name": "UserDto",
+					"description": "用户数据的传输类型"
+				},
+				{
+					"name": "CardDto",
+					"description": ""
+				},
+				{
+					"name": "DealDto",
+					"description": ""
+				},
+				{
+					"name": "OverDto",
+					"description": ""
+				},
+				{
+					"name": "PlayerDto",
+					"description": ""
+				},
+				{
+					"name": "SceneBase",
+					"description": ""
+				},
+				{
+					"name": "StateManager",
+					"description": "状态控制者"
+				},
+				{
+					"name": "CreateScene",
+					"description": ""
+				},
+				{
+					"name": "FightScene",
+					"description": ""
+				},
+				{
+					"name": "MainScene",
+					"description": ""
+				},
+				{
+					"name": "StartScene",
+					"description": ""
+				},
+				{
+					"name": "ChatView",
+					"description": ""
+				},
+				{
+					"name": "CreateView",
+					"description": ""
+				},
+				{
+					"name": "FightView",
+					"description": ""
+				},
+				{
+					"name": "MainView",
+					"description": ""
+				},
+				{
+					"name": "StartView",
+					"description": ""
+				},
+				{
+					"name": "TableView",
+					"description": ""
+				},
+				{
+					"name": "LeftPlayerView",
+					"description": ""
+				},
+				{
+					"name": "PlayerBaseView",
+					"description": ""
+				},
+				{
+					"name": "RightPlayerView",
+					"description": ""
+				},
+				{
+					"name": "UserPlayerView",
+					"description": ""
+				},
+				{
+					"name": "OperCom",
+					"description": ""
+				},
+				{
+					"name": "OperShowCom",
+					"description": ""
+				},
+				{
+					"name": "LoginPanel",
+					"description": ""
+				},
+				{
+					"name": "OverPanel",
+					"description": ""
+				},
+				{
+					"name": "RegistPanel",
+					"description": ""
+				},
+				{
+					"name": "SettingPanel",
+					"description": ""
+				},
+				{
+					"name": "ManagerBase",
+					"description": ""
+				},
+				{
+					"name": "MsgCenter",
+					"description": ""
+				},
+				{
+					"name": "Log",
+					"description": ""
+				},
+				{
+					"name": "md5",
+					"description": "A JavaScript implementation of the RSA Data Security, Inc. MD5 MessageDigest Algorithm, as defined in RFC 1321.Version 2.2 Copyright (C) Paul Johnston 1999 - 2009Other contributors: Greg Holt, Andrew Kepert, Ydnar, LostinetDistributed under the BSD LicenseSee http://pajhome.org.uk/crypt/md5 for more info."
+				}
+			],
+			"enum": [
+				{
+					"name": "NetEventCode",
+					"description": ""
+				},
+				{
+					"name": "UIEventCode",
+					"description": ""
+				},
+				{
+					"name": "PopUpShowMode",
+					"description": "窗体显示类型"
+				},
+				{
+					"name": "PopUpLucencyType",
+					"description": "窗体透明度类型"
+				},
+				{
+					"name": "AccountCode",
+					"description": ""
+				},
+				{
+					"name": "FightCode",
+					"description": ""
+				},
+				{
+					"name": "MatchCode",
+					"description": ""
+				},
+				{
+					"name": "OpCode",
+					"description": ""
+				},
+				{
+					"name": "UserCode",
+					"description": ""
+				},
+				{
+					"name": "AreaCode",
+					"description": ""
+				}
+			],
+			"interface": [
+				{
+					"name": "IApplication",
+					"description": ""
+				},
+				{
+					"name": "IScene",
+					"description": "状态模式接口"
+				},
+				{
+					"name": "IBase",
+					"description": ""
+				}
+			]
+		},
+		"Utils": {
+			"class": [
+				{
+					"name": "ArrayUtil",
+					"description": ""
+				},
+				{
+					"name": "CommonUtil",
+					"description": ""
+				},
+				{
+					"name": "DisplayUtil",
+					"description": "显示对象工具类"
+				},
+				{
+					"name": "NumberUtil",
+					"description": ""
+				},
+				{
+					"name": "StringUtil",
+					"description": "字符串处理工具"
+				},
+				{
+					"name": "TimeUtil",
+					"description": ""
+				}
+			]
+		},
+		"vec2": {
+			"globalMember": [
+				{
+					"name": "pOne",
+					"description": ""
+				},
+				{
+					"name": "pZero",
+					"description": ""
+				}
+			],
+			"globalFunction": [
+				{
+					"name": "add",
+					"description": ""
+				},
+				{
+					"name": "distance",
+					"description": ""
+				},
+				{
+					"name": "distanceSq",
+					"description": ""
+				},
+				{
+					"name": "dot",
+					"description": ""
+				},
+				{
+					"name": "fill",
+					"description": ""
+				},
+				{
+					"name": "forAngle",
+					"description": ""
+				},
+				{
+					"name": "length",
+					"description": ""
+				},
+				{
+					"name": "lengthSq",
+					"description": ""
+				},
+				{
+					"name": "lerp",
+					"description": ""
+				},
+				{
+					"name": "lerpN",
+					"description": ""
+				},
+				{
+					"name": "middlePoint",
+					"description": ""
+				},
+				{
+					"name": "normalize",
+					"description": ""
+				},
+				{
+					"name": "scale",
+					"description": ""
+				},
+				{
+					"name": "sub",
+					"description": ""
+				},
+				{
+					"name": "toAngle",
+					"description": ""
+				},
+				{
+					"name": "v2p",
+					"description": ""
+				}
+			],
+			"class": [
+				{
+					"name": "Point",
+					"description": ""
+				}
+			]
+		}
+	},
+	"other": {
+		"global": {
+			"class": [
+				{
+					"name": "Types",
+					"description": "基础类型介绍"
+				}
+			]
+		}
+	}
+}

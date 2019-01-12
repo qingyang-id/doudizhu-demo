@@ -1,0 +1,64 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "CREATE_CREQ",
+			"memberof": "UserCode",
+			"scope": "static",
+			"description": "// 创建角色",
+			"default": "2"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "CREATE_SRES",
+			"memberof": "UserCode",
+			"scope": "static",
+			"default": "3"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "GET_INFO_CREQ",
+			"memberof": "UserCode",
+			"scope": "static",
+			"description": "// 获取信息",
+			"default": "0"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "GET_INFO_SRES",
+			"memberof": "UserCode",
+			"scope": "static",
+			"default": "1"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "ONLINE_CREQ",
+			"memberof": "UserCode",
+			"scope": "static",
+			"description": "// 角色上线",
+			"default": "4"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "ONLINE_SRES",
+			"memberof": "UserCode",
+			"scope": "static",
+			"default": "5"
+		}
+	],
+	"function": [],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "enum",
+		"name": "UserCode",
+		"memberof": "",
+		"filename": "application\\protocol\\code\\UserCode.ts"
+	}
+}

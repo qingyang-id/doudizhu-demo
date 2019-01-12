@@ -1,0 +1,355 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "addToContainer",
+			"memberof": "Utils.DisplayUtil",
+			"scope": "static",
+			"description": "添加显示对象进容器",
+			"params": [
+				{
+					"name": "disObj",
+					"type": "egret.DisplayObject",
+					"description": "disObj"
+				},
+				{
+					"name": "container",
+					"type": "egret.DisplayObjectContainer",
+					"description": "container"
+				},
+				{
+					"name": "index",
+					"type": "number",
+					"default": "-1",
+					"description": "添加到的层级，-1表示直接addChild"
+				},
+				{
+					"name": "isOverAdd",
+					"type": "boolean",
+					"default": "false",
+					"description": "是否需要重复添加"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "disabledButtonTimeout",
+			"memberof": "Utils.DisplayUtil",
+			"scope": "static",
+			"description": "禁止按钮一段时间",
+			"params": [
+				{
+					"name": "target",
+					"type": "egret.DisplayObjectContainer",
+					"description": ""
+				},
+				{
+					"name": "time",
+					"type": "number",
+					"default": "700",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "fastAddChild",
+			"memberof": "Utils.DisplayUtil",
+			"scope": "static",
+			"description": "addChild 的高效实现，慎用",
+			"params": [
+				{
+					"name": "container",
+					"type": "egret.DisplayObjectContainer",
+					"description": "container"
+				},
+				{
+					"name": "child",
+					"type": "egret.DisplayObject",
+					"description": "child"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "fastAddChildAt",
+			"memberof": "Utils.DisplayUtil",
+			"scope": "static",
+			"description": "addChildAt 的高效实现，慎用",
+			"params": [
+				{
+					"name": "container",
+					"type": "egret.DisplayObjectContainer",
+					"description": "container"
+				},
+				{
+					"name": "child",
+					"type": "egret.DisplayObject",
+					"description": "child"
+				},
+				{
+					"name": "index",
+					"type": "number",
+					"description": "index"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "fastRemoveAllChild",
+			"memberof": "Utils.DisplayUtil",
+			"scope": "static",
+			"description": "removeAllChild 的高效实现，慎用",
+			"params": [
+				{
+					"name": "container",
+					"type": "egret.DisplayObjectContainer",
+					"description": "container"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "fastRemoveChildAt",
+			"memberof": "Utils.DisplayUtil",
+			"scope": "static",
+			"description": "removeChildAt 的高效实现，慎用",
+			"params": [
+				{
+					"name": "container",
+					"type": "egret.DisplayObjectContainer",
+					"description": "container"
+				},
+				{
+					"name": "index",
+					"type": "number",
+					"description": "index"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "fastRemoveFromParent",
+			"memberof": "Utils.DisplayUtil",
+			"scope": "static",
+			"description": "removeFromParent 的高效实现，慎用",
+			"params": [
+				{
+					"name": "child",
+					"type": "egret.DisplayObject",
+					"description": "child"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "fixSetProvider",
+			"memberof": "Utils.DisplayUtil",
+			"scope": "static",
+			"description": "友好设置列表数据，可以避免List重设数据后，滚动条跳回页首",
+			"params": [
+				{
+					"name": "list",
+					"type": "eui.List",
+					"description": ""
+				},
+				{
+					"name": "collection",
+					"type": "eui.ArrayCollection",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "flyText",
+			"memberof": "Utils.DisplayUtil",
+			"scope": "static",
+			"params": [
+				{
+					"name": "str",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "container",
+					"type": "egret.DisplayObjectContainer",
+					"description": ""
+				},
+				{
+					"name": "xPos",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "yPos",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "textColor",
+					"type": "number",
+					"default": "0xffffff",
+					"description": ""
+				},
+				{
+					"name": "time",
+					"type": "number",
+					"default": "700",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "fontFly",
+			"memberof": "Utils.DisplayUtil",
+			"scope": "static",
+			"params": [
+				{
+					"name": "disObj",
+					"type": "egret.DisplayObject",
+					"description": ""
+				},
+				{
+					"name": "yMaxOffset",
+					"type": "number",
+					"default": "50",
+					"description": ""
+				},
+				{
+					"name": "xMaxOffset",
+					"type": "number",
+					"default": "60",
+					"description": ""
+				},
+				{
+					"name": "randomRang",
+					"type": "number",
+					"default": "15",
+					"description": ""
+				},
+				{
+					"name": "scale",
+					"type": "number",
+					"default": "1",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "generalAlphaOutImageEffect",
+			"memberof": "Utils.DisplayUtil",
+			"scope": "static",
+			"description": "生成淡化消失的图片动画，播放后自动消失",
+			"params": [
+				{
+					"name": "source",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "container",
+					"type": "egret.DisplayObjectContainer",
+					"description": ""
+				},
+				{
+					"name": "hCenter",
+					"type": "number",
+					"default": "0.5",
+					"description": ""
+				},
+				{
+					"name": "vCenter",
+					"type": "number",
+					"default": "0.5",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "generalScaleImageEffect",
+			"memberof": "Utils.DisplayUtil",
+			"scope": "static",
+			"description": "生成放大缩小的图片动画，播放后自动消失",
+			"params": [
+				{
+					"name": "source",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "container",
+					"type": "egret.DisplayObjectContainer",
+					"description": ""
+				},
+				{
+					"name": "hCenter",
+					"type": "number",
+					"default": "0.5",
+					"description": ""
+				},
+				{
+					"name": "vCenter",
+					"type": "number",
+					"default": "0.5",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "removeFromParent",
+			"memberof": "Utils.DisplayUtil",
+			"scope": "static",
+			"description": "从父节点中移除",
+			"params": [
+				{
+					"name": "disObj",
+					"type": "egret.DisplayObject",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "sortChildren",
+			"memberof": "Utils.DisplayUtil",
+			"scope": "static",
+			"description": "按数组顺序调整显示列表",
+			"params": [
+				{
+					"name": "children",
+					"type": "egret.DisplayObject[]",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "DisplayUtil",
+		"memberof": "Utils",
+		"filename": "framework\\utils\\DisplayUtil.ts",
+		"description": "显示对象工具类"
+	}
+}

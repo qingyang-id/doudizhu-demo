@@ -1,0 +1,309 @@
+{
+	"globalFunction": [
+		{
+			"filename": "framework\\utils\\vec2.ts",
+			"kind": "globalFunction",
+			"type": "vec2.Point",
+			"name": "add",
+			"memberof": "vec2",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "b",
+					"type": "vec2.Point",
+					"description": ""
+				},
+				{
+					"name": "c",
+					"type": "vec2.Point",
+					"description": ""
+				}
+			]
+		},
+		{
+			"filename": "framework\\utils\\vec2.ts",
+			"kind": "globalFunction",
+			"type": "number",
+			"name": "distance",
+			"memberof": "vec2",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "a",
+					"type": "vec2.Point",
+					"description": ""
+				},
+				{
+					"name": "b",
+					"type": "vec2.Point",
+					"description": ""
+				}
+			]
+		},
+		{
+			"filename": "framework\\utils\\vec2.ts",
+			"kind": "globalFunction",
+			"type": "number",
+			"name": "distanceSq",
+			"memberof": "vec2",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "a",
+					"type": "vec2.Point",
+					"description": ""
+				},
+				{
+					"name": "b",
+					"type": "vec2.Point",
+					"description": ""
+				}
+			]
+		},
+		{
+			"filename": "framework\\utils\\vec2.ts",
+			"kind": "globalFunction",
+			"type": "number",
+			"name": "dot",
+			"memberof": "vec2",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "a",
+					"type": "vec2.Point",
+					"description": ""
+				},
+				{
+					"name": "b",
+					"type": "vec2.Point",
+					"description": ""
+				}
+			]
+		},
+		{
+			"filename": "framework\\utils\\vec2.ts",
+			"kind": "globalFunction",
+			"type": "void",
+			"name": "fill",
+			"memberof": "vec2",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "a",
+					"type": "vec2.Point",
+					"description": ""
+				},
+				{
+					"name": "x",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "y",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"filename": "framework\\utils\\vec2.ts",
+			"kind": "globalFunction",
+			"type": "vec2.Point",
+			"name": "forAngle",
+			"memberof": "vec2",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "value",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"filename": "framework\\utils\\vec2.ts",
+			"kind": "globalFunction",
+			"type": "number",
+			"name": "length",
+			"memberof": "vec2",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "a",
+					"type": "vec2.Point",
+					"description": ""
+				}
+			]
+		},
+		{
+			"filename": "framework\\utils\\vec2.ts",
+			"kind": "globalFunction",
+			"type": "number",
+			"name": "lengthSq",
+			"memberof": "vec2",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "a",
+					"type": "vec2.Point",
+					"description": ""
+				}
+			]
+		},
+		{
+			"filename": "framework\\utils\\vec2.ts",
+			"kind": "globalFunction",
+			"type": "vec2.Point",
+			"name": "lerp",
+			"memberof": "vec2",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "b",
+					"type": "vec2.Point",
+					"description": ""
+				},
+				{
+					"name": "c",
+					"type": "vec2.Point",
+					"description": ""
+				},
+				{
+					"name": "d",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"filename": "framework\\utils\\vec2.ts",
+			"kind": "globalFunction",
+			"type": "number",
+			"name": "lerpN",
+			"memberof": "vec2",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "a",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "b",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "c",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"filename": "framework\\utils\\vec2.ts",
+			"kind": "globalFunction",
+			"type": "vec2.Point",
+			"name": "middlePoint",
+			"memberof": "vec2",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "b",
+					"type": "vec2.Point",
+					"description": ""
+				},
+				{
+					"name": "c",
+					"type": "vec2.Point",
+					"description": ""
+				}
+			]
+		},
+		{
+			"filename": "framework\\utils\\vec2.ts",
+			"kind": "globalFunction",
+			"type": "void",
+			"name": "normalize",
+			"memberof": "vec2",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "a",
+					"type": "vec2.Point",
+					"description": ""
+				}
+			]
+		},
+		{
+			"filename": "framework\\utils\\vec2.ts",
+			"kind": "globalFunction",
+			"type": "vec2.Point",
+			"name": "scale",
+			"memberof": "vec2",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "b",
+					"type": "vec2.Point",
+					"description": ""
+				},
+				{
+					"name": "c",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"filename": "framework\\utils\\vec2.ts",
+			"kind": "globalFunction",
+			"type": "vec2.Point",
+			"name": "sub",
+			"memberof": "vec2",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "b",
+					"type": "vec2.Point",
+					"description": ""
+				},
+				{
+					"name": "c",
+					"type": "vec2.Point",
+					"description": ""
+				}
+			]
+		},
+		{
+			"filename": "framework\\utils\\vec2.ts",
+			"kind": "globalFunction",
+			"type": "number",
+			"name": "toAngle",
+			"memberof": "vec2",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "a",
+					"type": "vec2.Point",
+					"description": ""
+				}
+			]
+		},
+		{
+			"filename": "framework\\utils\\vec2.ts",
+			"kind": "globalFunction",
+			"type": "egret.Point",
+			"name": "v2p",
+			"memberof": "vec2",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "a",
+					"type": "vec2.Point",
+					"description": ""
+				}
+			]
+		}
+	]
+}

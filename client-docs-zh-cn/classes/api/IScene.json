@@ -1,0 +1,41 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "getStateName",
+			"memberof": "IScene",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "stateBegin",
+			"memberof": "IScene",
+			"scope": "instance",
+			"description": "// state begin"
+		},
+		{
+			"kind": "function",
+			"name": "stateEnd",
+			"memberof": "IScene",
+			"scope": "instance",
+			"description": "// state end"
+		},
+		{
+			"kind": "function",
+			"name": "stateUpdate",
+			"memberof": "IScene",
+			"scope": "instance",
+			"description": "// state update"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "interface",
+		"name": "IScene",
+		"memberof": "",
+		"filename": "application\\scenes\\IScene.ts",
+		"description": "状态模式接口"
+	}
+}

@@ -1,0 +1,47 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "RegistPanel",
+			"memberof": "RegistPanel",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "childrenCreated",
+			"memberof": "RegistPanel",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "close",
+			"memberof": "RegistPanel",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "createChildren",
+			"memberof": "RegistPanel",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "onDispose",
+			"memberof": "RegistPanel",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "RegistPanel",
+		"memberof": "",
+		"filename": "application\\view\\popup\\RegistPanel.ts",
+		"augments": [
+			"PopUpBase",
+			"UIBase"
+		]
+	}
+}

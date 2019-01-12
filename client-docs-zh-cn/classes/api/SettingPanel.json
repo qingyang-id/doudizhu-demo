@@ -1,0 +1,41 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "SettingPanel",
+			"memberof": "SettingPanel",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "childrenCreated",
+			"memberof": "SettingPanel",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "createChildren",
+			"memberof": "SettingPanel",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "onDispose",
+			"memberof": "SettingPanel",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "SettingPanel",
+		"memberof": "",
+		"filename": "application\\view\\popup\\SettingPanel.ts",
+		"augments": [
+			"PopUpBase",
+			"UIBase"
+		]
+	}
+}

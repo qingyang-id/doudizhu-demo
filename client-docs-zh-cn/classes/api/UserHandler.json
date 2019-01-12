@@ -1,0 +1,40 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "UserHandler",
+			"memberof": "UserHandler",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "onReceive",
+			"memberof": "UserHandler",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "subCode",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "value",
+					"type": "any",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "UserHandler",
+		"memberof": "",
+		"filename": "application\\net\\impl\\UserHandler.ts",
+		"augments": [
+			"HandlerBase"
+		]
+	}
+}

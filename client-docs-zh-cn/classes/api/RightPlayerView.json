@@ -1,0 +1,96 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "eui.Label",
+			"name": "cardNum",
+			"memberof": "PlayerBaseView",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "PlayerBaseView"
+		},
+		{
+			"kind": "member",
+			"type": "OperShowCom",
+			"name": "operShowCom",
+			"memberof": "PlayerBaseView",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "PlayerBaseView"
+		},
+		{
+			"kind": "member",
+			"type": "eui.Image",
+			"name": "playerImg",
+			"memberof": "PlayerBaseView",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "PlayerBaseView"
+		},
+		{
+			"kind": "member",
+			"type": "UserDto",
+			"name": "userDto",
+			"memberof": "PlayerBaseView",
+			"scope": "instance",
+			"inherited": true,
+			"inherits": "PlayerBaseView"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "RightPlayerView",
+			"memberof": "RightPlayerView",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "childrenCreated",
+			"memberof": "RightPlayerView",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "createChildren",
+			"memberof": "RightPlayerView",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "execute",
+			"memberof": "RightPlayerView",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "eventCode",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "message",
+					"type": "any",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "onDispose",
+			"memberof": "RightPlayerView",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "RightPlayerView",
+		"memberof": "",
+		"filename": "application\\view\\player\\RightPlayerView.ts",
+		"augments": [
+			"PlayerBaseView",
+			"UIBase"
+		]
+	}
+}

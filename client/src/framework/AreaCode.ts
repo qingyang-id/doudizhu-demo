@@ -1,0 +1,4 @@
+enum AreaCode {
+	UI,
+	NET,
+}

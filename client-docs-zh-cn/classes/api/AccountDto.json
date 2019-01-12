@@ -1,0 +1,46 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "account",
+			"memberof": "AccountDto",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "string",
+			"name": "password",
+			"memberof": "AccountDto",
+			"scope": "instance"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "AccountDto",
+			"memberof": "AccountDto",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "acc",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "pwd",
+					"type": "string",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "AccountDto",
+		"memberof": "",
+		"filename": "application\\protocol\\dto\\AccountDto.ts"
+	}
+}

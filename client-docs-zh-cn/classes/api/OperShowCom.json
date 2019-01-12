@@ -1,0 +1,57 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "OperShowCom",
+			"memberof": "OperShowCom",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "hasReady",
+			"memberof": "OperShowCom",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "normal",
+			"memberof": "OperShowCom",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "outCard",
+			"memberof": "OperShowCom",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "cards",
+					"type": "CardDto[]",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "pass",
+			"memberof": "OperShowCom",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "toReady",
+			"memberof": "OperShowCom",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "OperShowCom",
+		"memberof": "",
+		"filename": "application\\view\\player\\oper\\OperShowCom.ts",
+		"augments": []
+	}
+}

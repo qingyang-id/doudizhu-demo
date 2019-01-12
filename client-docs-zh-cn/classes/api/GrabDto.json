@@ -1,0 +1,58 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "CardDto[]",
+			"name": "playerCardList",
+			"memberof": "GrabDto",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "CardDto[]",
+			"name": "tableCardList",
+			"memberof": "GrabDto",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "userId",
+			"memberof": "GrabDto",
+			"scope": "instance"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "GrabDto",
+			"memberof": "GrabDto",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "userId",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "tableCardsList",
+					"type": "CardDto[]",
+					"description": ""
+				},
+				{
+					"name": "playerCardList",
+					"type": "CardDto[]",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "GrabDto",
+		"memberof": "",
+		"filename": "application\\protocol\\dto\\GrabDto.ts"
+	}
+}

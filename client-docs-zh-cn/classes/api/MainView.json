@@ -1,0 +1,52 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "MainView",
+			"memberof": "MainView",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "childrenCreated",
+			"memberof": "MainView",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "createChildren",
+			"memberof": "MainView",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "execute",
+			"memberof": "MainView",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "eventCode",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "msg",
+					"type": "any",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "MainView",
+		"memberof": "",
+		"filename": "application\\view\\MainView.ts",
+		"augments": [
+			"UIBase"
+		]
+	}
+}

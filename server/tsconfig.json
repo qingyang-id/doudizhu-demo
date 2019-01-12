@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "es2016",
+        "outDir": "bin-debug",
+        "experimentalDecorators": true,
+        "lib": [
+            "es5",
+            "dom",
+            "es2015.promise"
+        ],
+        "sourceMap": true,
+        "types":[],
+        "noImplicitAny": false,
+        "module": "commonjs",
+        "removeComments": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": false
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

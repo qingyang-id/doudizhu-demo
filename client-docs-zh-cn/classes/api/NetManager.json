@@ -1,0 +1,142 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "NetManager",
+			"memberof": "NetManager",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "add",
+			"memberof": "ManagerBase",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "eventCode",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "base",
+					"type": "IBase",
+					"description": ""
+				}
+			],
+			"inherited": true,
+			"inherits": "ManagerBase"
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "addMul",
+			"memberof": "ManagerBase",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "eventCodes",
+					"type": "number[]",
+					"description": ""
+				},
+				{
+					"name": "base",
+					"type": "IBase",
+					"description": ""
+				}
+			],
+			"inherited": true,
+			"inherits": "ManagerBase"
+		},
+		{
+			"kind": "function",
+			"name": "execute",
+			"memberof": "NetManager",
+			"scope": "instance",
+			"description": "处理客户端内部给服务器发消息的事件",
+			"params": [
+				{
+					"name": "eventCode",
+					"type": "number",
+					"description": "eventCode"
+				},
+				{
+					"name": "msg",
+					"type": "SocketMsg",
+					"description": "msg"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "getInstance",
+			"memberof": "NetManager",
+			"scope": "static"
+		},
+		{
+			"kind": "function",
+			"name": "onDisconnect",
+			"memberof": "NetManager",
+			"scope": "instance",
+			"description": "接受网络的消息",
+			"params": [
+				{
+					"name": "client",
+					"type": "ClientPeer",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "onReceive",
+			"memberof": "NetManager",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "msg",
+					"type": "SocketMsg",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "removeMul",
+			"memberof": "ManagerBase",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "eventCodes",
+					"type": "number[]",
+					"description": ""
+				},
+				{
+					"name": "base",
+					"type": "IBase",
+					"description": ""
+				}
+			],
+			"inherited": true,
+			"inherits": "ManagerBase"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "NetManager",
+		"memberof": "",
+		"filename": "application\\net\\NetManager.ts",
+		"augments": [
+			"ManagerBase"
+		],
+		"implements": [
+			{
+				"name": "IApplication"
+			}
+		]
+	}
+}

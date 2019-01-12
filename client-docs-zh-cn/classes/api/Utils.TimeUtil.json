@@ -1,0 +1,114 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "TimeUtil",
+			"memberof": "Utils.TimeUtil",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "clearInterval",
+			"memberof": "Utils.TimeUtil",
+			"scope": "static",
+			"description": "清理定时调度",
+			"params": [
+				{
+					"name": "handle",
+					"type": "number",
+					"description": "时钟ID"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "clearTimeout",
+			"memberof": "Utils.TimeUtil",
+			"scope": "static",
+			"description": "清除延时调用",
+			"params": [
+				{
+					"name": "handle",
+					"type": "number",
+					"description": "时钟ID"
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "setInterval",
+			"memberof": "Utils.TimeUtil",
+			"scope": "static",
+			"description": "定时调度",
+			"params": [
+				{
+					"name": "handler",
+					"type": "Function",
+					"description": "调度函数"
+				},
+				{
+					"name": "timeout",
+					"question": true,
+					"type": "any",
+					"description": "时间（毫秒）"
+				},
+				{
+					"name": "...args",
+					"type": "any[]",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "number",
+			"name": "setTimeout",
+			"memberof": "Utils.TimeUtil",
+			"scope": "static",
+			"description": "延时调用",
+			"params": [
+				{
+					"name": "handler",
+					"type": "Function",
+					"description": "处理函数"
+				},
+				{
+					"name": "timeout",
+					"question": true,
+					"type": "any",
+					"description": "时间（毫秒）"
+				},
+				{
+					"name": "...args",
+					"type": "any[]",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "Promise<void>",
+			"name": "wait",
+			"memberof": "Utils.TimeUtil",
+			"scope": "static",
+			"description": "等待多少毫秒执行后续",
+			"params": [
+				{
+					"name": "timeout",
+					"type": "number",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "TimeUtil",
+		"memberof": "Utils",
+		"filename": "framework\\utils\\TimeUtil.ts"
+	}
+}

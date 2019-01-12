@@ -1,0 +1,22 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "createChildren",
+			"memberof": "Main",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "Main",
+		"memberof": "",
+		"filename": "Main.ts",
+		"description": "//////////////////////////////////////////////////////////////////////////////////////",
+		"augments": []
+	}
+}

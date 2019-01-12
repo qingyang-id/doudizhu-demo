@@ -1,0 +1,68 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "CLUB",
+			"memberof": "CardColor",
+			"scope": "static",
+			"default": "1"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "HEART",
+			"memberof": "CardColor",
+			"scope": "static",
+			"default": "2"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "NONE",
+			"memberof": "CardColor",
+			"scope": "static",
+			"default": "0"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "SPADE",
+			"memberof": "CardColor",
+			"scope": "static",
+			"default": "3"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "SQUARE",
+			"memberof": "CardColor",
+			"scope": "static",
+			"default": "4"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"type": "string",
+			"name": "getString",
+			"memberof": "CardColor",
+			"scope": "static",
+			"params": [
+				{
+					"name": "color",
+					"type": "number",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "CardColor",
+		"memberof": "",
+		"filename": "application\\protocol\\constant\\CardColor.ts"
+	}
+}

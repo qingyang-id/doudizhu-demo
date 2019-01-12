@@ -1,0 +1,40 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "ChatView",
+			"memberof": "ChatView",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "childrenCreated",
+			"memberof": "ChatView",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "createChildren",
+			"memberof": "ChatView",
+			"scope": "instance"
+		},
+		{
+			"kind": "function",
+			"name": "onDispose",
+			"memberof": "ChatView",
+			"scope": "instance"
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "ChatView",
+		"memberof": "",
+		"filename": "application\\view\\ChatView.ts",
+		"augments": [
+			"UIBase"
+		]
+	}
+}

@@ -1,0 +1,64 @@
+{
+	"member": [
+		{
+			"kind": "member",
+			"type": "CardDto[]",
+			"name": "cardList",
+			"memberof": "PlayerDto",
+			"scope": "instance",
+			"default": "[]"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "identity",
+			"memberof": "PlayerDto",
+			"scope": "instance"
+		},
+		{
+			"kind": "member",
+			"type": "number",
+			"name": "userId",
+			"memberof": "PlayerDto",
+			"scope": "instance"
+		}
+	],
+	"function": [
+		{
+			"kind": "function",
+			"name": "PlayerDto",
+			"memberof": "PlayerDto",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "userId",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "add",
+			"memberof": "PlayerDto",
+			"scope": "instance",
+			"description": "添加卡牌",
+			"params": [
+				{
+					"name": "card",
+					"type": "CardDto",
+					"description": "card"
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "PlayerDto",
+		"memberof": "",
+		"filename": "application\\protocol\\dto\\fight\\PlayerDto.ts"
+	}
+}

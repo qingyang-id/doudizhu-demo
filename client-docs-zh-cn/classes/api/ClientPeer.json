@@ -1,0 +1,84 @@
+{
+	"member": [],
+	"function": [
+		{
+			"kind": "function",
+			"name": "ClientPeer",
+			"memberof": "ClientPeer",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "ip",
+					"type": "string",
+					"description": ""
+				},
+				{
+					"name": "port",
+					"type": "number",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "send",
+			"memberof": "ClientPeer",
+			"scope": "instance",
+			"description": "发送消息",
+			"params": [
+				{
+					"name": "opCode",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "subCode",
+					"type": "number",
+					"description": ""
+				},
+				{
+					"name": "value",
+					"type": "any",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"type": "void",
+			"name": "sendMsg",
+			"memberof": "ClientPeer",
+			"scope": "instance",
+			"params": [
+				{
+					"name": "msg",
+					"type": "SocketMsg",
+					"description": ""
+				}
+			]
+		},
+		{
+			"kind": "function",
+			"name": "setApplication",
+			"memberof": "ClientPeer",
+			"scope": "instance",
+			"description": "设置上层应用",
+			"params": [
+				{
+					"name": "app",
+					"type": "IApplication",
+					"description": ""
+				}
+			]
+		}
+	],
+	"globalMember": [],
+	"globalFunction": [],
+	"class": {
+		"kind": "class",
+		"name": "ClientPeer",
+		"memberof": "",
+		"filename": "application\\net\\ClientPeer.ts"
+	}
+}
