@@ -53,6 +53,10 @@ class Main extends eui.UILayer {
         let assetAdapter = new AssetAdapter();
         egret.registerImplementation("eui.IAssetAdapter", assetAdapter);
         egret.registerImplementation("eui.IThemeAdapter", new ThemeAdapter());
+        // 1 add loading animation
+        Toast.initRes(this, "resource/loading/toast-bg.png");
+
+        egret.ImageLoader.crossOrigin = "anonymous";
         //Config loading process interface
         //设置加载进度界面
         this.loadingView = new LoadingUI();
@@ -105,7 +109,6 @@ class Main extends eui.UILayer {
         }
     }
     private createScene() {
-        console.log(this.isThemeLoadEnd, this.isResourceLoadEnd)
         if (this.isThemeLoadEnd && this.isResourceLoadEnd) {
             Game.getInstance().start(this.stage);
         }
@@ -134,7 +137,7 @@ class Main extends eui.UILayer {
      */
     private onResourceProgress(event: RES.ResourceEvent): void {
         if (event.groupName == "preload") {
-            this.loadingView.setProgress(event.itemsLoaded, event.itemsTotal);
+            this.loadingView.onProgress(event.itemsLoaded, event.itemsTotal);
         }
     }
 }

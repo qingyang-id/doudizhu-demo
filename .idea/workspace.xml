@@ -2,197 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3df6281-c933-4abc-812b-c758787d41a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/typescript-compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/resource/loading/toast-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/Config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/SceneManager.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/scene/Base.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/scene/ErrorNote.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/scene/RankListItem.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/scene/TopHeader.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/utils/ArrayTools.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/utils/IntegralSettlement.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/utils/MD5.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/utils/Toast.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/utils/WxUtils.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.idea/client.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.idea/dictionaries/yq.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.idea/thriftCompiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.wing/exml.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.wing/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/.wing/launch.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/libs/modules/egret/egret.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/libs/modules/egret/egret.web.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/libs/modules/eui/eui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/libs/modules/game/game.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/libs/modules/res/res.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/libs/modules/socket/socket.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/libs/modules/tween/tween.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/main.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/main.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/promise/bin/promise.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/assets/Button/button_down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/assets/Button/button_up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/assets/CheckBox/checkbox_select_disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/assets/CheckBox/checkbox_select_down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/assets/CheckBox/checkbox_select_up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/assets/CheckBox/checkbox_unselect.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/assets/ItemRenderer/selected.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/assets/Panel/border.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/assets/Panel/header.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/assets/ProgressBar/thumb_pb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/assets/ProgressBar/track_pb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/assets/RadioButton/radiobutton_select_disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/assets/RadioButton/radiobutton_select_down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/assets/RadioButton/radiobutton_select_up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/assets/RadioButton/radiobutton_unselect.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/assets/ScrollBar/roundthumb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/assets/ScrollBar/track_sb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/assets/Slider/thumb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/assets/Slider/track.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/assets/Slider/tracklight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/assets/ToggleSwitch/handle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/assets/ToggleSwitch/off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/assets/ToggleSwitch/on.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/assets/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/assets/egret_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/config/description.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/config/errorInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/default.res.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/default.thm.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/eui_skins/ButtonSkin.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/eui_skins/CheckBoxSkin.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/eui_skins/HScrollBarSkin.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/eui_skins/HSliderSkin.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/eui_skins/ItemRendererSkin.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/eui_skins/PanelSkin.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/eui_skins/ProgressBarSkin.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/eui_skins/RadioButtonSkin.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/eui_skins/ScrollerSkin.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/eui_skins/TextInputSkin.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/eui_skins/ToggleSwitchSkin.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/eui_skins/VScrollBarSkin.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/eui_skins/VSliderSkin.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Identity/Farmer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Identity/Landlord.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/CardBack.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/ClubEight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/ClubFive.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/ClubFour.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/ClubJack.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/ClubKing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/ClubNine.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/ClubOne.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/ClubQueen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/ClubSeven.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/ClubSix.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/ClubTen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/ClubThree.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/ClubTwo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/HeartEight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/HeartFive.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/HeartFour.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/HeartJack.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/HeartKing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/HeartNine.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/HeartOne.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/HeartQueen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/HeartSeven.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/HeartSix.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/HeartTen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/HeartThree.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/HeartTwo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/LJoker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/SJoker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/SpadeEight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/SpadeFive.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/SpadeFour.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/SpadeJack.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/SpadeKing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/SpadeNine.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/SpadeOne.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/SpadeQueen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/SpadeSeven.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/SpadeSix.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/SpadeTen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/SpadeThree.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/SpadeTwo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/SquareEight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/SquareFive.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/SquareFour.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/SquareJack.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/SquareKing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/SquareNine.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/SquareOne.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/SquareQueen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/SquareSeven.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/SquareSix.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/SquareTen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/SquareThree.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/Poker/SquareTwo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/UI/Common_BG4_2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/UI/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/UI/btn1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/UI/btn2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/UI/btn3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/UI/buy_btn_06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/UI/close_btn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/UI/default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/UI/dou.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/UI/goods_BG2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/UI/hlddz.00045.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/UI/huanledou.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/UI/jishianniudi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/UI/jujsidai.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/UI/kuaisu_choose.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/UI/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/UI/new_BJ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/UI/nongmin2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/UI/panel-blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/UI/panel-orange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/UI/public_bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/UI/quxiao_loding (2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_assets/UI/setting.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_skins/CardSkin.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_skins/CreateSkin.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_skins/FightSkin.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_skins/MainSkin.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_skins/MyPlayerSkin.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_skins/StartSkin.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_skins/TableSkin.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_skins/component/ButtonBlueSkin.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_skins/component/ButtonBlueSmallSkin.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_skins/component/ButtonCloseSkin.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_skins/component/ButtonSkin.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_skins/component/ButtonSmallSkin.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_skins/component/ButtonSmallestSkin.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_skins/player/LeftPlayerSkin.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_skins/player/RightPlayerSkin.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_skins/player/UserPlayerSkin.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_skins/player/operComSkin.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_skins/player/operShowCom/leftOperShowCom.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_skins/player/operShowCom/rightOperShowCom.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_skins/player/operShowCom/userOperShowCom.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_skins/popup/ChatSkin.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_skins/popup/LoginSkin.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_skins/popup/OverSkin.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_skins/popup/RegistSkin.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/bin-release/web/v1/resource/game_skins/popup/SettingSkin.exml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/egretProperties.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/egretProperties.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/libs/exml.e.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/libs/exml.e.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/libs/modules/res/res.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/libs/modules/res/res.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/libs/modules/res/res.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.wing/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.wing/tasks.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/.wing/tasks.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/promise/bin/promise.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/promise/bin/promise.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/resource/default.thm.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/resource/default.thm.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/ThemeAdapter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ThemeAdapter.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/application/net/ClientPeer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/application/net/ClientPeer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/application/net/NetManager.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/application/net/NetManager.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/application/net/impl/AccountHandler.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/application/net/impl/AccountHandler.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/application/net/impl/UserHandler.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/application/net/impl/UserHandler.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/framework/utils/TimeUtil.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/framework/utils/TimeUtil.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/updateProtocol.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/wingProperties.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/wingProperties.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/resource/default.res.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/resource/default.res.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/LoadingUI.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/LoadingUI.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/template/runtime/native_require.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/template/runtime/native_require.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -258,6 +89,7 @@
     <session id="2094906504">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -266,20 +98,22 @@
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="html" value="1" />
-          <entry key="js" value="5" />
-          <entry key="json" value="16" />
+          <entry key="js" value="6" />
+          <entry key="json" value="17" />
           <entry key="md" value="1" />
-          <entry key="ts" value="28" />
+          <entry key="png" value="1" />
+          <entry key="ts" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="JSON" value="12" />
-          <entry key="JavaScript" value="5" />
+          <entry key="Image" value="1" />
+          <entry key="JSON" value="13" />
+          <entry key="JavaScript" value="6" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="TypeScript" value="28" />
+          <entry key="TypeScript" value="85" />
           <entry key="tsconfig" value="4" />
         </counts>
       </usages-collector>
@@ -292,14 +126,14 @@
         <counts>
           <entry key="js" value="6" />
           <entry key="json" value="1" />
-          <entry key="ts" value="177" />
+          <entry key="ts" value="231" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="6" />
-          <entry key="TypeScript" value="177" />
+          <entry key="TypeScript" value="231" />
         </counts>
       </usages-collector>
     </session>
@@ -309,8 +143,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/Main.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="890">
-              <caret line="126" column="19" selection-start-line="126" selection-start-column="19" selection-end-line="126" selection-end-column="19" />
+            <state relative-caret-position="-2484">
+              <caret line="54" column="78" selection-start-line="54" selection-start-column="78" selection-end-line="56" selection-end-column="61" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -319,47 +153,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/application/Game.ts">
+        <entry file="file://$PROJECT_DIR$/client/src/SceneManager.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1332">
-              <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/application/net/ClientPeer.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3024">
-              <caret line="84" column="35" selection-start-line="84" selection-start-column="35" selection-end-line="84" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/application/net/impl/UserHandler.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-105">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="396">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+              <folding>
+                <element signature="n#!!block;n#showScene#0;n#SceneManager#0" />
+                <element signature="n#!!block;n#back#0;n#SceneManager#0" />
+                <element signature="n#!!block;n#JumpResultUI#0;n#SceneManager#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/template/runtime/native_require.js">
+        <entry file="file://$PROJECT_DIR$/client/src/Config.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="252">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>romise</find>
       <find>没有角色 创建</find>
+      <find>JumpResultUI</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/client</dir>
@@ -394,8 +224,17 @@
         <option value="$PROJECT_DIR$/client/src/application/net/ClientPeer.ts" />
         <option value="$PROJECT_DIR$/client/src/application/net/impl/UserHandler.ts" />
         <option value="$PROJECT_DIR$/client/bin-debug/application/net/impl/UserHandler.js" />
-        <option value="$PROJECT_DIR$/client/src/application/net/impl/AccountHandler.ts" />
         <option value="$PROJECT_DIR$/client/src/application/net/NetManager.ts" />
+        <option value="$PROJECT_DIR$/client/src/LoadingUI.ts" />
+        <option value="$PROJECT_DIR$/client/src/SceneManager.js" />
+        <option value="$PROJECT_DIR$/client/src/scene/CardGame.ts" />
+        <option value="$PROJECT_DIR$/client/src/Main.ts" />
+        <option value="$PROJECT_DIR$/client/src/scene/Base.ts" />
+        <option value="$PROJECT_DIR$/client/src/scene/ErrorNote.ts" />
+        <option value="$PROJECT_DIR$/client/src/scene/Result.ts" />
+        <option value="$PROJECT_DIR$/client/src/SceneManager.ts" />
+        <option value="$PROJECT_DIR$/client/src/application/manager/NoticeManager.ts" />
+        <option value="$PROJECT_DIR$/client/src/application/net/impl/AccountHandler.ts" />
       </list>
     </option>
   </component>
@@ -494,16 +333,6 @@
               <item name="doudizhu-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="doudizhu-demo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="doudizhu-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doudizhu-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doudizhu-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doudizhu-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -529,6 +358,14 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/server/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/scene" />
+      <recent name="$PROJECT_DIR$/client/src/utils" />
+      <recent name="$PROJECT_DIR$/client/src" />
+      <recent name="$PROJECT_DIR$/client/resource" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -598,7 +435,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32996973" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32996973" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -627,144 +464,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server/gameserver/cache/match/MatchCache.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/gameserver/cache/match/MatchRoom.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/errorInfo.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/updateProtocol.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1908" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/bin-release/web/190109195233/index.html" />
-    <entry file="file://$PROJECT_DIR$/server/tslint.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/base/concurrent/ConcurrentInt.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/base/ClientPeerPool.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/base/IApplication.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/base/ServerPeer.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/base/SocketMsg.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/gameserver/cache/Caches.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/gameserver/cache/AccountCache.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/gameserver/Program.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/gameserver/cache/UserCache.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/gameserver/logic/AccountHandler.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/gameserver/logic/FightHandler.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/gameserver/logic/IHandler.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/gameserver/logic/MatchHandler.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/wingProperties.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="8" column="1" lean-forward="true" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/promise/bin/promise.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/resource/config/description.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/gameserver/NetMsgCenter.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/base/ClientPeer.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="831">
-          <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/libs/modules/promise/promise.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="695" column="2" lean-forward="true" selection-start-line="695" selection-start-column="2" selection-end-line="695" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -843,11 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/application/manager/NoticeManager.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9141" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/framework/ManagerBase.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -859,20 +553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/application/net/HandlerBase.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/application/net/impl/AccountHandler.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -906,20 +586,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/Main.ts">
+    <entry file="file://$PROJECT_DIR$/client/template/runtime/native_require.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="890">
-          <caret line="126" column="19" selection-start-line="126" selection-start-column="19" selection-end-line="126" selection-end-column="19" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/application/Game.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1332">
-          <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+        <state relative-caret-position="396">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -930,17 +600,202 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/application/net/impl/UserHandler.ts">
+    <entry file="file://$PROJECT_DIR$/client/src/application/scenes/concreteScene/StartScene.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/template/runtime/native_require.js">
+    <entry file="file://$PROJECT_DIR$/client/libs/exml.e.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="252">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/resource/loading/toast-bg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/application/protocol/code/UserCode.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/application/net/impl/MatchHandler.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/application/net/impl/UserHandler.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/SceneManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="92" column="37" lean-forward="true" selection-start-line="92" selection-start-column="37" selection-end-line="92" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/LoadingUI.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/matchvs/MvsHttpApi.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="8" column="58" lean-forward="true" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/logic/game/Prompt.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/utils/ArrayTools.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/matchvs/MatchvsData.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/utils/MatchDialog.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3122">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/scene/CardGame.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2944">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/scene/Login.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/scene/RankList.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3924" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/scene/Room.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/scene/Base.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/scene/ErrorNote.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/scene/BattleStageUI.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10872" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/scene/TopHeader.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/scene/RankListItem.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/scene/Result.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6876">
+          <caret line="191" column="5" selection-start-line="191" selection-start-column="5" selection-end-line="191" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/utils/Toast.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/application/manager/NoticeManager.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8308">
+          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/application/Game.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/application/net/HandlerBase.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/application/net/impl/AccountHandler.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/Main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2484">
+          <caret line="54" column="78" selection-start-line="54" selection-start-column="78" selection-end-line="56" selection-end-column="61" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/SceneManager.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!block;n#showScene#0;n#SceneManager#0" />
+            <element signature="n#!!block;n#back#0;n#SceneManager#0" />
+            <element signature="n#!!block;n#JumpResultUI#0;n#SceneManager#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/Config.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
